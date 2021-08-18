@@ -7,4 +7,4 @@
 [node name="concept-model-v32" parent="." instance=ExtResource( 1 )]
 
 [node name="Camera" type="Camera" parent="."]
-transform = Transform( -0.780256, -0.203258, 0.591512, 0, 0.945723, 0.324974, -0.625461, 0.253563, -0.737906, 0.688938, 0.469517, -0.851906 )
+transform = Transform( -0.573576, -0.266203, 0.774691, 0, 0.945723, 0.324974, -0.819152, 0.186397, -0.542444, 0.608262, 0.211129, -0.388179 )
