@@ -1,4 +1,4 @@
-tool
+#tool
 extends Spatial
 
 
@@ -20,13 +20,20 @@ export var br: Vector3
 export var bl: Vector3
 export var neck: float
 
+export var A: float = 0.17
+export var B: float = 0.1414
+export var hipOffset: float = 0.1495
+export var C: float = 0.06
+
 export var L1: float = .17
 export var L2: float = .14
 export var L2B: float = .02
 export var L3: float = .06
 export var legRoot: Vector3
 
-
+# Input scaling coefficients
+export var neckCoef: float = -1.0
+export var legCoef: float = 0.5
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -35,6 +42,25 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
+	# Take user input
+	var triggerInput = Input.get_action_strength("trigger_right") - Input.get_action_strength("trigger_left")
+	var leftXInput = Input.get_action_strength("left_right") - Input.get_action_strength("left_left")
+	var leftYInput = Input.get_action_strength("left_up") - Input.get_action_strength("left_down")
+	var rightXInput = Input.get_action_strength("right_right") - Input.get_action_strength("right_left")
+	var rightYInput = Input.get_action_strength("right_up") - Input.get_action_strength("right_down")
+	
+	# Process user input
+	neck += neckCoef * triggerInput * delta
+	#$"target_endpoint".translation.x += legCoef * leftXInput * delta
+	#$"target_endpoint".translation.y += legCoef * rightYInput * delta
+	#$"target_endpoint".translation.z -= legCoef * leftYInput * delta
+	#print($"target_endpoint".translation)
+	
+	br.x += legCoef * leftXInput * delta
+	br.y += legCoef * rightYInput * delta
+	br.z += legCoef * leftYInput * delta
+	print(br)
+	
 	# Update joint positions here
 	$"neck/shoulder-fl".rotation 			= Vector3(0, PI, fl.z)
 	$"neck/shoulder-fl/hip".rotation		= Vector3(-fl.y, 0, 0)
@@ -50,11 +76,19 @@ func _process(delta):
 	$"body/shoulder-bl/hip/knee".rotation 	= Vector3(bl.x, 0, 0)
 	$"neck".rotation						= Vector3(0, 0, neck)
 	
+	#var endpointPos = Vector3(
+	#	(L1 * (cos(bl.x)*sin(br.y) + sin(br.x)*cos(br.y)) - L2*sin(br.y) + L2B*cos(br.y))*sin(br.z) + L3*cos(br.z),
+	#	(-L1 * (cos(bl.x)*sin(br.y) + sin(br.x)*cos(br.y))) + L3*sin(br.y) - L2B*cos(br.y),
+	#	((-L1 * (cos(bl.x)*sin(br.y) + sin(br.x)*cos(br.y))) + L2*sin(br.y) - L2B*cos(br.y))*cos(br.z) + L3*sin(br.z)
+	#)
+	var actualY = br.y + hipOffset
+	var l = (B * sin(actualY)) + (A * sin(br.x - br.y))
 	var endpointPos = Vector3(
-		(L1 * (cos(bl.x)*sin(br.y) + sin(br.x)*cos(br.y)) - L2*sin(br.y) + L2B*cos(br.y))*sin(br.z) + L3*cos(br.z),
-		(-L1 * (cos(bl.x)*sin(br.y) + sin(br.x)*cos(br.y))) + L3*sin(br.y) - L2B*cos(br.y),
-		((-L1 * (cos(bl.x)*sin(br.y) + sin(br.x)*cos(br.y))) + L2*sin(br.y) - L2B*cos(br.y))*cos(br.z) + L3*sin(br.z)
+		(C * cos(br.z)) + (l * sin(br.z)),
+		(C * sin(br.z)) - (l * cos(br.z)),
+		(B * cos(actualY)) - (A * cos(br.x - br.y))
 	)
 	$"test_endpoint".translation = legRoot + endpointPos
 	#$"test_endpoint".translation = legRoot
+	
 	pass
