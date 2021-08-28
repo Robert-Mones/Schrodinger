@@ -37,10 +37,21 @@ export var legCoef: float = 2.0
 
 var circleTime: float = 0.0
 
+func updateA(text):
+	A = float(text)
+
+func updateB(text):
+	B = float(text)
+
+func updateHipOffset(text):
+	hipOffset = float(text)
+
+func updateC(text):
+	C = float(text)
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass
-
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
@@ -55,7 +66,7 @@ func _process(delta):
 	var downInput = Input.is_action_pressed("ui_down")
 	
 	# Process user input
-	neck += neckCoef * triggerInput * delta
+	#neck += neckCoef * triggerInput * delta
 	
 	#$"target_endpoint".translation.x += legCoef * leftXInput * delta
 	#$"target_endpoint".translation.y += legCoef * rightYInput * delta
@@ -64,7 +75,7 @@ func _process(delta):
 	
 	br.x += legCoef * leftYInput * delta
 	br.y += legCoef * rightYInput * delta
-	# br.z += legCoef * leftYInput * delta
+	br.z += legCoef * triggerInput * delta
 	print(br)
 	
 	if upInput:
