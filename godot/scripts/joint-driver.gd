@@ -21,9 +21,9 @@ export var bl: Vector3
 export var neck: float
 
 export var A: float = 0.17
-export var B: float = 0.1414
-export var hipOffset: float = 0.1495
-export var C: float = 0.06
+export var B: float = 0.1414 #0.13
+export var hipOffset: float = 0.14916 #0.1
+export var C: float = 0.055
 
 export var L1: float = .17
 export var L2: float = .14
@@ -33,7 +33,9 @@ export var legRoot: Vector3
 
 # Input scaling coefficients
 export var neckCoef: float = -1.0
-export var legCoef: float = 0.5
+export var legCoef: float = 2.0
+
+var circleTime: float = 0.0
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -48,18 +50,31 @@ func _process(delta):
 	var leftYInput = Input.get_action_strength("left_up") - Input.get_action_strength("left_down")
 	var rightXInput = Input.get_action_strength("right_right") - Input.get_action_strength("right_left")
 	var rightYInput = Input.get_action_strength("right_up") - Input.get_action_strength("right_down")
+	var resetInput = Input.is_action_pressed("ui_cancel")
+	var upInput = Input.is_action_pressed("ui_up")
+	var downInput = Input.is_action_pressed("ui_down")
 	
 	# Process user input
 	neck += neckCoef * triggerInput * delta
+	
 	#$"target_endpoint".translation.x += legCoef * leftXInput * delta
 	#$"target_endpoint".translation.y += legCoef * rightYInput * delta
 	#$"target_endpoint".translation.z -= legCoef * leftYInput * delta
 	#print($"target_endpoint".translation)
 	
-	br.x += legCoef * leftXInput * delta
+	br.x += legCoef * leftYInput * delta
 	br.y += legCoef * rightYInput * delta
-	br.z += legCoef * leftYInput * delta
+	# br.z += legCoef * leftYInput * delta
 	print(br)
+	
+	if upInput:
+		br.z = PI/2
+	elif downInput:
+		br.z = -PI/2
+	
+	if resetInput:
+		br = Vector3(0.0, 0.0, 0.0)
+		neck = 0.0
 	
 	# Update joint positions here
 	$"neck/shoulder-fl".rotation 			= Vector3(0, PI, fl.z)
@@ -90,5 +105,10 @@ func _process(delta):
 	)
 	$"test_endpoint".translation = legRoot + endpointPos
 	#$"test_endpoint".translation = legRoot
+	
+	circleTime += delta
+	if circleTime > 0.5:
+		circleTime = 0.0
+		
 	
 	pass
