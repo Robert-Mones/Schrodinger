@@ -5,8 +5,9 @@
 #include "Arduino.h"
 
 class Communication {
-    
+    public:
+        void setup();
+        void loop();
 };
-Communication Communication;
 
 #endif

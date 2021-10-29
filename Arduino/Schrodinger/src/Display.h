@@ -5,8 +5,9 @@
 #include "Arduino.h"
 
 class Display {
-
+    public:
+        void setup();
+        void loop();
 };
-Display Display;
 
 #endif

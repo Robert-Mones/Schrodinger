@@ -5,8 +5,9 @@
 #include "Arduino.h"
 
 class Sensor {
-
+    public:
+        void setup();
+        void loop();
 };
-Sensor Sensor;
 
 #endif

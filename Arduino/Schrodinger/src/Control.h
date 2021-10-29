@@ -5,8 +5,10 @@
 #include "Arduino.h"
 
 class Control {
+    public:
+        void setup();
+        void loop();
 
 };
-Control Control;
 
 #endif

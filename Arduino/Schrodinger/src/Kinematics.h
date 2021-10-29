@@ -5,8 +5,9 @@
 #include "Arduino.h"
 
 class Kinematics {
-
+    public:
+        void setup();
+        void loop();
 };
-Kinematics Kinematics;
 
 #endif

@@ -5,8 +5,9 @@
 #include "Arduino.h"
 
 class Behavior {
-
+    public:
+        void setup();
+        void loop();
 };
-Behavior Behavior;
 
 #endif
