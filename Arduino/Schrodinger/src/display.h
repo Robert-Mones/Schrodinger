@@ -1,3 +1,12 @@
+// File to manage displaying information on the OLED display, LEDs, and other data-presenting media.
+#ifndef Display_h
+#define Display_h
+
 #include "Arduino.h"
 
-// File to manage displaying information on the OLED display, LEDs, and other data-presenting media.
+class Display {
+
+};
+Display Display;
+
+#endif
