@@ -4,7 +4,7 @@
 
 #include "Arduino.h"
 
-class Behavior {
+class Behavior_ {
     public:
         void setup();
         void loop();

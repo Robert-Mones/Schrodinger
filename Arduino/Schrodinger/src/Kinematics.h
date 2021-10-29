@@ -4,7 +4,7 @@
 
 #include "Arduino.h"
 
-class Kinematics {
+class Kinematics_ {
     public:
         void setup();
         void loop();

@@ -1,10 +1,10 @@
 #include "Arduino.h"
 #include "Display.h"
 
-void Display::setup() {
+void Display_::setup() {
 
 }
 
-void Display::loop() {
+void Display_::loop() {
 
 }

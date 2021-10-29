@@ -4,7 +4,7 @@
 
 #include "Arduino.h"
 
-class Communication {
+class Communication_ {
     public:
         void setup();
         void loop();

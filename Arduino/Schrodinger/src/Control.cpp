@@ -1,10 +1,10 @@
 #include "Arduino.h"
 #include "Control.h"
 
-void Control::setup() {
+void Control_::setup() {
 
 }
 
-void Control::loop() {
+void Control_::loop() {
 
 }

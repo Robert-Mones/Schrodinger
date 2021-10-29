@@ -1,10 +1,10 @@
 #include "Arduino.h"
 #include "Communication.h"
 
-void Communication::setup() {
+void Communication_::setup() {
 
 }
 
-void Communication::loop() {
+void Communication_::loop() {
 
 }

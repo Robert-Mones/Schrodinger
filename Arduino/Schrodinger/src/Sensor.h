@@ -4,7 +4,7 @@
 
 #include "Arduino.h"
 
-class Sensor {
+class Sensor_ {
     public:
         void setup();
         void loop();

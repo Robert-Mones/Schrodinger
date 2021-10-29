@@ -7,6 +7,13 @@
 #include "Kinematics.h"
 #include "Sensor.h"
 
+Behavior_ Behavior;
+Communication_ Communication;
+Control_ Control;
+Display_ Display;
+Kinematics_ Kinematics;
+Sensor_ Sensor;
+
 void setup() {
   
 }

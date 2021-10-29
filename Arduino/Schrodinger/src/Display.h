@@ -4,7 +4,7 @@
 
 #include "Arduino.h"
 
-class Display {
+class Display_ {
     public:
         void setup();
         void loop();

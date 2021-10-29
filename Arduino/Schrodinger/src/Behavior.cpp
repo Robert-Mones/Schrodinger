@@ -1,10 +1,10 @@
 #include "Arduino.h"
 #include "Behavior.h"
 
-void Behavior::setup() {
+void Behavior_::setup() {
 
 }
 
-void Behavior::loop() {
+void Behavior_::loop() {
 
 }

@@ -4,7 +4,7 @@
 
 #include "Arduino.h"
 
-class Control {
+class Control_ {
     public:
         void setup();
         void loop();

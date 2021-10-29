@@ -1,10 +1,10 @@
 #include "Arduino.h"
 #include "Sensor.h"
 
-void Sensor::setup() {
+void Sensor_::setup() {
 
 }
 
-void Sensor::loop() {
+void Sensor_::loop() {
 
 }
