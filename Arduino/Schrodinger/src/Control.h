@@ -3,12 +3,16 @@
 #define Control_h
 
 #include "Arduino.h"
+#include "Sensor.h"
 
 class Control_ {
     public:
         void setup();
         void loop();
 
+    private:
+        bool enabled = false;
 };
+extern Control_ Control;
 
 #endif

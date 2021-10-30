@@ -3,11 +3,17 @@
 #define Sensor_h
 
 #include "Arduino.h"
+#include <Bounce2.h>
+
+#define ENABLE_BUTTON 31
 
 class Sensor_ {
     public:
         void setup();
         void loop();
+    
+        Button enableButton = Button();
 };
+extern Sensor_ Sensor;
 
 #endif

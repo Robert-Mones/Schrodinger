@@ -9,5 +9,6 @@ class Kinematics_ {
         void setup();
         void loop();
 };
+extern Kinematics_ Kinematics;
 
 #endif

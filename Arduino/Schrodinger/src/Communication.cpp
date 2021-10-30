@@ -1,8 +1,10 @@
 #include "Arduino.h"
 #include "Communication.h"
 
-void Communication_::setup() {
+Communication_ Communication;
 
+void Communication_::setup() {
+    Serial.begin(115200);
 }
 
 void Communication_::loop() {

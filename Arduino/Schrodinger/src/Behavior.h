@@ -9,5 +9,6 @@ class Behavior_ {
         void setup();
         void loop();
 };
+extern Behavior_ Behavior;
 
 #endif

@@ -9,5 +9,6 @@ class Communication_ {
         void setup();
         void loop();
 };
+extern Communication_ Communication;
 
 #endif

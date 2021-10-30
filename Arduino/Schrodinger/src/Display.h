@@ -9,5 +9,6 @@ class Display_ {
         void setup();
         void loop();
 };
+extern Display_ Display;
 
 #endif
