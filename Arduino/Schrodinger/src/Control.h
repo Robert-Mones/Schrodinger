@@ -3,6 +3,7 @@
 #define Control_h
 
 #include "Arduino.h"
+#include "Display.h"
 #include "Sensor.h"
 
 class Control_ {
@@ -11,7 +12,7 @@ class Control_ {
         void loop();
 
     private:
-        bool enabled = false;
+        bool enabled;
 };
 extern Control_ Control;
 
