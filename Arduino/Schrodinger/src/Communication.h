@@ -3,6 +3,7 @@
 #define Communication_h
 
 #include "Arduino.h"
+#include "Display.h"
 
 class Communication_ {
     public:

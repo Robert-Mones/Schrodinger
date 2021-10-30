@@ -11,4 +11,6 @@ void Sensor_::setup() {
 
 void Sensor_::loop() {
     enableButton.update();
+
+    Display.updateDisplay(1, "Batt Voltage: 13.56V");
 }

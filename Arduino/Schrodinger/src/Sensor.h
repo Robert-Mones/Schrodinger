@@ -4,6 +4,7 @@
 
 #include "Arduino.h"
 #include <Bounce2.h>
+#include "Display.h"
 
 #define ENABLE_BUTTON 31
 

@@ -8,5 +8,5 @@ void Communication_::setup() {
 }
 
 void Communication_::loop() {
-
+    Display.updateDisplay(2, "IP Addr: 192.168.0.12");
 }
