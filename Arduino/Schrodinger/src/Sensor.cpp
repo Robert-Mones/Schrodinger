@@ -8,7 +8,7 @@ void Sensor_::setup() {
     enableButton.interval(10);
     enableButton.setPressedState(LOW);
     
-    Display.updateDisplay(1, "Batt Voltage: 13.56V");
+    Display.updateDisplay(1, "Batt Voltage: 13.56V"); // Example
 }
 
 void Sensor_::loop() {
