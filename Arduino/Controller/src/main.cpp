@@ -30,7 +30,7 @@ struct {
   uint16_t touch[2];
   uint16_t buttons;
   uint8_t axes[7];
-} payload;
+} payload; // 13 bytes, 14 actual
 
 // Helper functions
 void PrintDeviceListChanges() {
@@ -47,7 +47,10 @@ void PrintDeviceListChanges() {
 void setup() {
   Serial1.begin(2000000);
   
-  Serial.println("\n\nUSB Host Joystick Testing");
+  Serial.begin(115200);
+  Serial.println("USB Host Joystick Testing");
+  Serial.printf("Payload size: %d bytes\n", sizeof(payload));
+
   myusb.begin();
 }
 
