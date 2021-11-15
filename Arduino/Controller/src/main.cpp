@@ -29,8 +29,9 @@ uint32_t tlast = 0;
 struct {
   uint16_t touch[2];
   uint16_t buttons;
+  int16_t accel[3];
   uint8_t axes[7];
-} payload; // 13 bytes, 14 actual
+} payload; // 19 bytes, 14 actual
 
 // Helper functions
 void PrintDeviceListChanges() {
@@ -64,6 +65,21 @@ void loop() {
 
     uint32_t buttons = joystick.getButtons();
 
+    // Pack the accel inputs
+    payload.accel[0] = (int16_t)(joystick.getAxis(20) << 8) | joystick.getAxis(19);
+    payload.accel[1] = (int16_t)(joystick.getAxis(22) << 8) | joystick.getAxis(21);
+    payload.accel[2] = (int16_t)(joystick.getAxis(24) << 8) | joystick.getAxis(23);
+
+    // Pack touch inputs
+    payload.touch[0] = ((joystick.getAxis(37) & 0x0f) << 8)
+      | joystick.getAxis(36);
+    payload.touch[1] = joystick.getAxis(38) << 4
+      | ((joystick.getAxis(37) & 0xf0) >> 4);
+
+    // Pack buttons
+    payload.buttons = buttons & 0x0fffffff;
+    payload.buttons |= (1-(joystick.getAxis(35) >> 7)) << 14;
+
     // Pack axes
     payload.axes[0] = joystick.getAxis(0);
     payload.axes[1] = joystick.getAxis(1);
@@ -73,35 +89,26 @@ void loop() {
     payload.axes[5] = joystick.getAxis(4);
     payload.axes[6] = joystick.getAxis(9);
 
-    // Pack buttons
-    payload.buttons = buttons & 0x0fffffff;
-    payload.buttons |= (1-(joystick.getAxis(35) >> 7)) << 14;
-
-    // Pack touch inputs
-    payload.touch[0] = ((joystick.getAxis(37) & 0x0f) << 8)
-      | joystick.getAxis(36);
-    payload.touch[1] = joystick.getAxis(38) << 4
-      | ((joystick.getAxis(37) & 0xf0) >> 4);
-
     joystick.joystickDataClear();
 
     // TODO: Transmit payload via radio
 
     uint32_t t2 = micros();
 
-    Serial.printf("Axes: %d, %d | %d, %d | %d, %d | %d\n",
-      payload.axes[0], payload.axes[1], payload.axes[2], 
-      payload.axes[3], payload.axes[4], payload.axes[5],
-      payload.axes[6]);
+    
+    Serial.printf("Pitch: %d,\t%d,\t%d\n", payload.accel[0], payload.accel[1], payload.accel[2]);
+    Serial.printf("Touch: %d, %d\n", payload.touch[0], payload.touch[1]);
+    Serial.printf("Time: %d, %d\n", t2-t1, t2-tlast);
     Serial.printf("Buttons: ");
     for(int i = 0; i < 16; i++) {
       uint32_t k = (payload.buttons >> (15-i)) & 1;
       Serial.printf("%d", k);
     }
     Serial.printf("\n");
-    Serial.printf("Touch: %d, %d\n",
-      payload.touch[0], payload.touch[1]);
-    Serial.printf("Time: %d, %d\n\n", t2-t1, t2-tlast);
+    Serial.printf("Axes: %d, %d | %d, %d | %d, %d | %d\n\n",
+      payload.axes[0], payload.axes[1], payload.axes[2], 
+      payload.axes[3], payload.axes[4], payload.axes[5],
+      payload.axes[6]);
     tlast = t2;
   }
 }
