@@ -14,6 +14,11 @@ void setup() {
   Behavior.setup();
   Control.setup();
   Display.setup();
+
+  Serial.print("outpayload size: ");
+  Serial.println(sizeof(Communication_::outpayload));
+  Serial.print("inpayload size: ");
+  Serial.println(sizeof(Communication_::inpayload));
 }
 
 void loop() {
