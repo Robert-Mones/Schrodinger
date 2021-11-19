@@ -38,8 +38,11 @@ void Communication_::loop() {
         inpayload inBuf;
         uint8_t bytes = radio.getPayloadSize();
         radio.read(&inBuf, bytes);
+        
+        char buf[DISPLAY_WIDTH];
+        snprintf(buf, DISPLAY_WIDTH, "0x%x", inBuf.buttons);
         Display.updateDisplay(3, "Recieved: ");
-        //Serial.println("Recv packet");
+        Display.updateDisplay(3, buf, true);
     }
 }
 
