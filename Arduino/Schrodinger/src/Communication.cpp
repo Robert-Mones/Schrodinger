@@ -39,8 +39,8 @@ void Communication_::loop() {
         uint8_t bytes = radio.getPayloadSize();
         radio.read(&inBuf, bytes);
         
-        char buf[DISPLAY_WIDTH];
-        snprintf(buf, DISPLAY_WIDTH, "0x%x", inBuf.buttons);
+        char buf[DISPLAY_WIDTH+1];
+        snprintf(buf, DISPLAY_WIDTH+1, "0x%x", inBuf.buttons);
         Display.updateDisplay(3, "Recieved: ");
         Display.updateDisplay(3, buf, true);
     }
