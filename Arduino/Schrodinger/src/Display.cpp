@@ -6,6 +6,7 @@ Display_ Display;
 void Display_::setup() {
     display.begin();
     display.setFont(u8g2_font_ncenB08_tr);
+
     needsUpdate = true;
     lastUpdate = 0;
 }

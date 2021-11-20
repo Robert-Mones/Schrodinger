@@ -4,6 +4,8 @@
 Sensor_ Sensor;
 
 void Sensor_::setup() {
+    enableButton = Button();
+    
     enableButton.attach(ENABLE_BUTTON, INPUT_PULLUP);
     enableButton.interval(10);
     enableButton.setPressedState(LOW);

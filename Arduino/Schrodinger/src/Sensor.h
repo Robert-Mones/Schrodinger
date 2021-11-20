@@ -13,7 +13,7 @@ class Sensor_ {
         void setup();
         void loop();
     
-        Button enableButton = Button();
+        Button enableButton;
 };
 extern Sensor_ Sensor;
 
