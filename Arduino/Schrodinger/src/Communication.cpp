@@ -11,6 +11,9 @@ void Communication_::setup() {
     inaddr = (const uint8_t*) "CORI0";
     connected = false;
 
+    lastCtTime = 0;
+    packetCt = 0;
+
     if(!radio.begin()) {
         Display.updateDisplay(2, "Radio Error");
     } else {
@@ -41,12 +44,20 @@ void Communication_::loop() {
         inpayload inBuf;
         uint8_t bytes = radio.getPayloadSize();
         radio.read(&inBuf, bytes);
-        
-        char buf[DISPLAY_WIDTH+1];
-        snprintf(buf, DISPLAY_WIDTH+1, "Received: 0x%x", inBuf.buttons);
-        Display.updateDisplay(3, buf);
+        packetCt++;
 
         digitalWrite(33, inBuf.buttons);
+    }
+
+    uint32_t t = millis();
+    // Count packets in one-second intervals, or if millis has overflowed
+    if((t - lastCtTime) >= 1000 || t < lastCtTime) {
+        char buf[DISPLAY_WIDTH+1];
+        snprintf(buf, DISPLAY_WIDTH+1, "Packet rate: %dHz", (unsigned int) packetCt);
+        Display.updateDisplay(3, buf);
+
+        packetCt = 0;
+        lastCtTime = t;
     }
 }
 

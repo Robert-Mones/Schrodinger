@@ -30,6 +30,9 @@ class Communication_ {
         const uint8_t *outaddr; // Controller in, robot out
         const uint8_t *inaddr;  // Controller out, robot in
         bool connected;
+
+        uint32_t lastCtTime;
+        uint32_t packetCt;
 };
 extern Communication_ Communication;
 
