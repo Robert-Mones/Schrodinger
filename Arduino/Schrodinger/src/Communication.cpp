@@ -6,17 +6,20 @@ Communication_ Communication;
 void Communication_::setup() {
     Serial.begin(115200);
 
+    radio = RF24(7, 8);
+    outaddr = (const uint8_t*) "CIRO0";
+    inaddr = (const uint8_t*) "CORI0";
+    connected = false;
+
     if(!radio.begin()) {
-        Display.updateDisplay(5, "Radio Error");
+        Display.updateDisplay(2, "Radio Error");
     } else {
-        Display.updateDisplay(5, "Radio Working");
         radio.setPALevel(RF24_PA_MAX);
         radio.setPayloadSize(sizeof(outpayload));
-        //radio.setAddressWidth(3);
-        //radio.openWritingPipe(outaddr);
-        //radio.openReadingPipe(1, inaddr);
-        radio.openWritingPipe(address[1]);
-        radio.openReadingPipe(1, address[0]);
+        radio.setRetries(5, 15);
+        
+        radio.openWritingPipe(outaddr);
+        radio.openReadingPipe(1, inaddr);
         radio.startListening();
 
         connected = radio.isChipConnected();
@@ -40,9 +43,10 @@ void Communication_::loop() {
         radio.read(&inBuf, bytes);
         
         char buf[DISPLAY_WIDTH+1];
-        snprintf(buf, DISPLAY_WIDTH+1, "0x%x", inBuf.buttons);
-        Display.updateDisplay(3, "Recieved: ");
-        Display.updateDisplay(3, buf, true);
+        snprintf(buf, DISPLAY_WIDTH+1, "Received: 0x%x", inBuf.buttons);
+        Display.updateDisplay(3, buf);
+
+        digitalWrite(33, inBuf.buttons);
     }
 }
 

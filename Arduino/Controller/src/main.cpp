@@ -31,10 +31,8 @@ struct {
 // Radio globals
 RF24 radio(7, 8); // CE, CSN
 
-uint8_t inaddr[3] = {0,0,1};
-uint8_t outaddr[3] = {0,0,0};
-
-uint8_t address[][6] = {"1Node", "2Node"};
+const uint8_t *inaddr = (const uint8_t*) "CIRO0";  // Controller in, robot out
+const uint8_t *outaddr = (const uint8_t*) "CORI0"; // Controller out, robot in
 
 // Main functions
 void setup() {
@@ -56,12 +54,9 @@ void setup() {
   radio.setPALevel(RF24_PA_MAX);
   radio.setPayloadSize(sizeof(payload));
   radio.setRetries(5, 15);
-  //radio.setAddressWidth(3);
 
-  //radio.openWritingPipe(outaddr);
-  //radio.openReadingPipe(1, inaddr);
-  radio.openWritingPipe(address[0]);
-  radio.openReadingPipe(1, address[1]);
+  radio.openWritingPipe(outaddr);
+  radio.openReadingPipe(1, inaddr);
   radio.stopListening();
 }
 

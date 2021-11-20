@@ -26,11 +26,10 @@ class Communication_ {
         };
     
     private:
-        RF24 radio = RF24(7, 8); // 10 MHz SPI communication
-        uint8_t outaddr[3] = {0, 0, 1};
-        uint8_t inaddr[3] = {0, 0, 0};
-        uint8_t address[2][6] = {"1Node", "2Node"};
-        bool connected = false;
+        RF24 radio; // 10 MHz SPI communication
+        const uint8_t *outaddr; // Controller in, robot out
+        const uint8_t *inaddr;  // Controller out, robot in
+        bool connected;
 };
 extern Communication_ Communication;
 
