@@ -3,8 +3,10 @@
 #define Display_h
 
 #include "Arduino.h"
-#include <U8g2lib.h>
 #include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+#include <Fonts/FreeMonoBold9pt7b.h>
 
 #define DISPLAY_WIDTH 21
 #define DISPLAY_TIME 50
@@ -17,10 +19,9 @@ class Display_ {
         void updateDisplay(int i, const char *s, bool append = false);
     
     private:
-        U8G2_SSD1306_128X64_NONAME_F_HW_I2C display
-            = U8G2_SSD1306_128X64_NONAME_F_HW_I2C(U8G2_R0, U8X8_PIN_NONE);
+        Adafruit_SSD1306 display = Adafruit_SSD1306(128, 64, &Wire, -1);
         
-        char displayData[6][DISPLAY_WIDTH+1] = {"", "", "", "", "", ""};
+        char displayData[6][DISPLAY_WIDTH+1] = {"--", "--", "--", "--", "--", "--"};
         bool needsUpdate;
         uint32_t lastUpdate;
 };
