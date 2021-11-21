@@ -23,6 +23,9 @@ void Communication_::setup() {
         
         radio.openWritingPipe(outaddr);
         radio.openReadingPipe(1, inaddr);
+        // Force close all pipes we don't want to read from
+        for(int i = 2; i <= 5; i++) radio.closeReadingPipe(i);
+
         radio.startListening();
 
         connected = radio.isChipConnected();
