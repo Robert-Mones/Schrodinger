@@ -20,15 +20,10 @@ void Display_::loop() {
     uint32_t t = millis();
     if(needsUpdate && (((t - lastUpdate) >= DISPLAY_TIME) || t < lastUpdate)) {
         // If display needs updating, update display
-        display.clearDisplay();
-        for (int i = 0; i < 6; i++) {
-            display.setCursor(0, 1+(11*i));
-            display.write(displayData[i]);
-        }
-        display.display();
-
-        needsUpdate = false;
+        writeDisplay();
+        
         lastUpdate = t;
+        Serial.printf("Display update time: %d\n", millis() - t);
     }
 }
 
@@ -42,4 +37,15 @@ void Display_::updateDisplay(int i, const char *s, bool append) {
         displayData[i][DISPLAY_WIDTH] = 0;
     }
     needsUpdate = true;
+}
+
+void Display_::writeDisplay() {
+    display.clearDisplay();
+    for (int i = 0; i < 6; i++) {
+        display.setCursor(0, 1+(11*i));
+        display.write(displayData[i]);
+    }
+    display.display();
+
+    needsUpdate = false;
 }
