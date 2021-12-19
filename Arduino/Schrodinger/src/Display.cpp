@@ -12,6 +12,7 @@ void Display_::setup() {
         Serial.printf("Display initialization failed.\n");
     }
 
+    writingNow = false;
     needsUpdate = true;
     lastUpdate = 0;
 }
@@ -19,16 +20,27 @@ void Display_::setup() {
 void Display_::loop() {
     uint32_t t = millis();
     if(needsUpdate && (((t - lastUpdate) >= DISPLAY_TIME) || t < lastUpdate)) {
-        // If display needs updating, update display
-        writeDisplay();
-        
+        // If display needs updating, first copy the data into a buffer
+        displayDataLock.lock();
+        for(int i = 0; i < 6; i++) {
+            strncpy(displayBuffer[i], displayData[i], DISPLAY_WIDTH);
+        }
+        displayDataLock.unlock();
+
+        // Then write to the display in a thread,
+        //   unless we already have a thread working on it
+        if(displayWriteLock.try_lock()) {
+            threads.addThread(writeDisplay, this);
+            displayWriteLock.unlock();
+        }
+
         lastUpdate = t;
-        Serial.printf("Display update time: %d\n", millis() - t);
     }
 }
 
 void Display_::updateDisplay(int i, const char *s, bool append) {
     // append is false by default
+    displayDataLock.lock();
     if(append) {
         int8_t len = DISPLAY_WIDTH - strlen(displayData[i]);
         strncat(displayData[i], s, len);
@@ -36,16 +48,21 @@ void Display_::updateDisplay(int i, const char *s, bool append) {
         strncpy(displayData[i], s, DISPLAY_WIDTH);
         displayData[i][DISPLAY_WIDTH] = 0;
     }
+    displayDataLock.unlock();
     needsUpdate = true;
 }
 
-void Display_::writeDisplay() {
-    display.clearDisplay();
+void Display_::writeDisplay(void *t) {
+    Display_ *this_ = (Display_*) t;
+    // ~123 us
+    this_->display.clearDisplay();
     for (int i = 0; i < 6; i++) {
-        display.setCursor(0, 1+(11*i));
-        display.write(displayData[i]);
+        this_->display.setCursor(0, 1+(11*i));
+        this_->display.write(this_->displayBuffer[i]);
     }
-    display.display();
 
-    needsUpdate = false;
+    // ~25600 us
+    this_->display.display();
+
+    this_->needsUpdate = false;
 }

@@ -10,7 +10,7 @@
 #include <TeensyThreads.h>
 
 #define DISPLAY_WIDTH 21
-#define DISPLAY_TIME 50
+#define DISPLAY_TIME 50 // Minimum time to wait between display updates
 
 class Display_ {
     public:
@@ -23,10 +23,14 @@ class Display_ {
         Adafruit_SSD1306 display = Adafruit_SSD1306(128, 64, &Wire1, -1);
         
         char displayData[6][DISPLAY_WIDTH+1] = {"--", "--", "--", "--", "--", "--"};
+        char displayBuffer[6][DISPLAY_WIDTH+1] = {"", "", "", "", "", ""};
+        Threads::Mutex displayDataLock;
+        Threads::Mutex displayWriteLock;
+        bool writingNow;
         bool needsUpdate;
         uint32_t lastUpdate;
 
-        void writeDisplay();
+        static void writeDisplay(void *t);
 };
 extern Display_ Display;
 
