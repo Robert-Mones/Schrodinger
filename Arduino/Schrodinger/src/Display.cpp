@@ -31,7 +31,6 @@ void Display_::loop() {
         //   unless we already have a thread working on it
         if(displayWriteLock.try_lock()) {
             threads.addThread(writeDisplay, this);
-            displayWriteLock.unlock();
         }
 
         lastUpdate = t;
@@ -65,4 +64,5 @@ void Display_::writeDisplay(void *t) {
     this_->display.display();
 
     this_->needsUpdate = false;
+    this_->displayWriteLock.unlock();
 }

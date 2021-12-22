@@ -54,7 +54,6 @@ void Communication_::loop() {
     // Count packets in one-second intervals, or if millis has overflowed
     if((t - lastCtTime) >= 1000 || t < lastCtTime) {
         Display.updateDisplay(2, connected ? "Radio Enabled" : "Radio Disabled");
-
         char buf[DISPLAY_WIDTH+1];
         snprintf(buf, DISPLAY_WIDTH+1, " (%dHz)", (unsigned int) packetCt);
         Display.updateDisplay(2, buf, true);
