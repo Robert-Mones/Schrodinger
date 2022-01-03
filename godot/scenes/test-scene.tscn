@@ -1,7 +1,8 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://schrod-v60.tscn" type="PackedScene" id=1]
-[ext_resource path="res://scenes/Camera.gd" type="Script" id=2]
+[ext_resource path="res://scripts/node-follow.gd" type="Script" id=2]
+[ext_resource path="res://addons/orbit_camera/orbit_camera.gd" type="Script" id=3]
 
 [sub_resource type="SpatialMaterial" id=1]
 albedo_color = Color( 0.705882, 0.905882, 1, 1 )
@@ -31,7 +32,7 @@ material = SubResource( 7 )
 [node name="Test Scene" type="Spatial"]
 
 [node name="schrod-v60" parent="." instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7.7366, 0 )
+transform = Transform( -5, 0, -4.37114e-07, 0, 5, 0, 4.37114e-07, 0, -5, 0, 1.04613, 0 )
 
 [node name="Floor" type="StaticBody" parent="."]
 
@@ -45,7 +46,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.1284, 0 )
 shape = SubResource( 3 )
 
 [node name="cube" type="StaticBody" parent="."]
-transform = Transform( 0.226303, 0.0510008, -0.0931973, 0, 0.21931, 0.120014, 0.106239, -0.108638, 0.198522, 0, 6.84057, 0.248779 )
+transform = Transform( 1, 0, 0, 0, 0.915915, 0.401372, 0, -0.401372, 0.915915, 0, -0.539044, 3.40342 )
 
 [node name="mesh" type="MeshInstance" parent="cube"]
 mesh = SubResource( 5 )
@@ -55,7 +56,7 @@ material/0 = null
 shape = SubResource( 6 )
 
 [node name="cube2" type="StaticBody" parent="."]
-transform = Transform( -0.0313286, 0.119068, -0.217581, 0, 0.21931, 0.120014, 0.248029, 0.0150397, -0.0274829, -0.374885, 5.7424, -0.0551053 )
+transform = Transform( 0.4, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
 
 [node name="mesh" type="MeshInstance" parent="cube2"]
 mesh = SubResource( 5 )
@@ -65,7 +66,7 @@ material/0 = null
 shape = SubResource( 6 )
 
 [node name="sphere" type="StaticBody" parent="."]
-transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0.230066, 5.71646, -0.512687 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.09568, -0.482904, 3.25216 )
 
 [node name="mesh" type="MeshInstance" parent="sphere"]
 mesh = SubResource( 8 )
@@ -74,54 +75,23 @@ material/0 = null
 [node name="shape" type="CollisionShape" parent="sphere"]
 shape = SubResource( 9 )
 
-[node name="cube3" type="StaticBody" parent="."]
-transform = Transform( 0.197847, -0.121555, 0.0926318, 0.0111455, 0.162603, 0.189569, -0.152421, -0.145893, 0.134101, 0.224401, 4.79513, 0.502595 )
-
-[node name="mesh" type="MeshInstance" parent="cube3"]
-mesh = SubResource( 5 )
-material/0 = null
-
-[node name="shape" type="CollisionShape" parent="cube3"]
-shape = SubResource( 6 )
-
-[node name="sphere2" type="StaticBody" parent="."]
-transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.299695, 4.38798, 0.301703 )
-
-[node name="mesh" type="MeshInstance" parent="sphere2"]
-mesh = SubResource( 8 )
-material/0 = null
-
-[node name="shape" type="CollisionShape" parent="sphere2"]
-shape = SubResource( 9 )
-
-[node name="sphere3" type="StaticBody" parent="."]
-transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.118368, 2.23658, -0.846595 )
-
-[node name="mesh" type="MeshInstance" parent="sphere3"]
-mesh = SubResource( 8 )
-material/0 = null
-
-[node name="shape" type="CollisionShape" parent="sphere3"]
-shape = SubResource( 9 )
-
-[node name="cube4" type="StaticBody" parent="."]
-transform = Transform( 0.197847, -0.121555, 0.0926318, 0.0111455, 0.162603, 0.189569, -0.152421, -0.145893, 0.134101, 0.193923, 0.0414624, 0.289497 )
-
-[node name="mesh" type="MeshInstance" parent="cube4"]
-mesh = SubResource( 5 )
-material/0 = null
-
-[node name="shape" type="CollisionShape" parent="cube4"]
-shape = SubResource( 6 )
-
 [node name="DirectionalLight" type="DirectionalLight" parent="."]
 transform = Transform( 1, 0, 0, 0, 0.607709, 0.79416, 0, -0.79416, 0.607709, 0, 4.01609, 4.53095 )
 light_energy = 0.8
 
-[node name="Camera" type="Camera" parent="."]
-transform = Transform( -4.37114e-08, -0.132164, 0.991228, 0, 0.991228, 0.132164, -1, 5.77705e-09, -4.33279e-08, 0.75, 7.8366, 0 )
+[node name="camera-anchor" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.04613, 0 )
 script = ExtResource( 2 )
 target = NodePath("../schrod-v60/torso")
-offset = Vector3( 0.75, 0.1, 0 )
+lookAtTarget = false
+
+[node name="OrbitCamera" type="Camera" parent="camera-anchor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1 )
+script = ExtResource( 3 )
+SCROLL_SPEED = 20.0
+DEFAULT_DISTANCE = 5.0
+ROTATE_SPEED = 1.0
+ANCHOR_NODE_PATH = NodePath("..")
+MOUSE_ZOOM_SPEED = 30.0
 
 [editable path="schrod-v60"]

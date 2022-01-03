@@ -1,0 +1,105 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://addons/orbit_camera/orbit_camera.gd" type="Script" id=1]
+[ext_resource path="res://scenes/model.gd" type="Script" id=2]
+
+[sub_resource type="PhysicsMaterial" id=9]
+rough = true
+
+[sub_resource type="SpatialMaterial" id=1]
+flags_unshaded = true
+albedo_color = Color( 1, 0.886275, 0.333333, 1 )
+
+[sub_resource type="SphereMesh" id=2]
+material = SubResource( 1 )
+radius = 0.1
+height = 0.2
+radial_segments = 16
+rings = 16
+
+[sub_resource type="SphereShape" id=3]
+radius = 0.12
+
+[sub_resource type="SpatialMaterial" id=4]
+flags_unshaded = true
+albedo_color = Color( 0.313726, 0.686275, 0.764706, 1 )
+
+[sub_resource type="SphereMesh" id=5]
+material = SubResource( 4 )
+radius = 0.115
+height = 0.23
+
+[sub_resource type="PlaneMesh" id=7]
+size = Vector2( 10, 10 )
+
+[sub_resource type="BoxShape" id=8]
+extents = Vector3( 5, 1, 5 )
+
+[node name="Spatial" type="Spatial"]
+
+[node name="model" type="RigidBody" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.57802, 0 )
+physics_material_override = SubResource( 9 )
+continuous_cd = true
+can_sleep = false
+script = ExtResource( 2 )
+
+[node name="hint" type="MeshInstance" parent="model"]
+mesh = SubResource( 2 )
+material/0 = null
+
+[node name="p1" type="CollisionShape" parent="model"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.676195, -1.09986, -0.888118 )
+shape = SubResource( 3 )
+
+[node name="hint" type="MeshInstance" parent="model/p1"]
+mesh = SubResource( 5 )
+material/0 = null
+
+[node name="p2" type="CollisionShape" parent="model"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.724656, -1.44571, -0.911227 )
+shape = SubResource( 3 )
+
+[node name="hint" type="MeshInstance" parent="model/p2"]
+mesh = SubResource( 5 )
+material/0 = null
+
+[node name="p3" type="CollisionShape" parent="model"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.657336, -0.984708, 0.732601 )
+shape = SubResource( 3 )
+
+[node name="hint" type="MeshInstance" parent="model/p3"]
+mesh = SubResource( 5 )
+material/0 = null
+
+[node name="p4" type="CollisionShape" parent="model"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.638562, -0.984708, 0.728361 )
+shape = SubResource( 3 )
+
+[node name="hint" type="MeshInstance" parent="model/p4"]
+mesh = SubResource( 5 )
+material/0 = null
+
+[node name="StaticBody" type="StaticBody" parent="."]
+
+[node name="MeshInstance" type="MeshInstance" parent="StaticBody"]
+mesh = SubResource( 7 )
+material/0 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="StaticBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0 )
+shape = SubResource( 8 )
+
+[node name="anchor" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.869364, 0 )
+
+[node name="OrbitCamera" type="Camera" parent="anchor"]
+script = ExtResource( 1 )
+SCROLL_SPEED = 20.0
+DEFAULT_DISTANCE = 5.0
+ROTATE_SPEED = 1.0
+ANCHOR_NODE_PATH = NodePath("..")
+MOUSE_ZOOM_SPEED = 30.0
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 0, 0 )
