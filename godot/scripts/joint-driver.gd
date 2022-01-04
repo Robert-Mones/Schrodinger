@@ -15,26 +15,42 @@ const offsets: Array = [
 
 # Joint setpoints
 export var fl: Vector3
+export var root: NodePath
+export var target: NodePath
+
 export var fr: Vector3
 export var br: Vector3
 export var bl: Vector3
 export var neck: float
 
-export var L1: float = .17
-export var L2: float = .14
-export var L2B: float = .02
-export var L3: float = .06
-export var legRoot: Vector3
+# Leg Lengths
+const a = 0.055
+const b = 0.134503
+const c = 0.148
 
-
+func algo():
+	# Calculate the relative (x,y,z) for the desired 
+	var offset = (get_node(target) as Spatial).translation - (get_node(root) as Spatial).translation;
+	
+	var abc = offset.length();
+	var bc = sqrt( pow(abc,2)-pow(a,2) )
+	var C = acos( (pow(b,2)+pow(c,2)-pow(bc,2)) / (2*b*c) )
+	var B = asin( -offset.z / bc ) + PI/2 - asin( (c*sin(C)) / bc )
+	var abc_proj = sqrt(pow(offset.x, 2) + pow(offset.y, 2))
+	var A = acos(a/abc_proj) - acos(offset.x/abc_proj)
+	#var A = atan( (bc*cos(B)) / a ) + atan(offset.x / offset.y) - PI/2
+	fr = Vector3(C-.15, B-.15, A)
+	
+	print(bc)
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass
 
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
+	algo();
+	
 	# Update joint positions here
 	$"neck/shoulder-fl".rotation 			= Vector3(0, PI, fl.z)
 	$"neck/shoulder-fl/hip".rotation		= Vector3(-fl.y, 0, 0)
@@ -50,11 +66,4 @@ func _process(delta):
 	$"body/shoulder-bl/hip/knee".rotation 	= Vector3(bl.x, 0, 0)
 	$"neck".rotation						= Vector3(0, 0, neck)
 	
-	var endpointPos = Vector3(
-		(L1 * (cos(bl.x)*sin(br.y) + sin(br.x)*cos(br.y)) - L2*sin(br.y) + L2B*cos(br.y))*sin(br.z) + L3*cos(br.z),
-		(-L1 * (cos(bl.x)*sin(br.y) + sin(br.x)*cos(br.y))) + L3*sin(br.y) - L2B*cos(br.y),
-		((-L1 * (cos(bl.x)*sin(br.y) + sin(br.x)*cos(br.y))) + L2*sin(br.y) - L2B*cos(br.y))*cos(br.z) + L3*sin(br.z)
-	)
-	$"test_endpoint".translation = legRoot + endpointPos
-	#$"test_endpoint".translation = legRoot
 	pass

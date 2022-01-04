@@ -5,6 +5,16 @@
 [node name="Spatial" type="Spatial"]
 
 [node name="concept-model-v32" parent="." instance=ExtResource( 1 )]
+fl = Vector3( 0.597474, 0.57357, -0.183318 )
+root = NodePath("../leg_root")
+target = NodePath("../leg_target")
+fr = Vector3( 0.87746, 0.320381, 0.321476 )
+
+[node name="leg_root" type="Position3D" parent="."]
+transform = Transform( 0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0.064, 0.034, -0.098 )
+
+[node name="leg_target" type="Position3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.160168, -0.0806993, -0.103727 )
 
 [node name="Camera" type="Camera" parent="."]
-transform = Transform( -0.780256, -0.203258, 0.591512, 0, 0.945723, 0.324974, -0.625461, 0.253563, -0.737906, 0.688938, 0.469517, -0.851906 )
+transform = Transform( -0.780256, -0.203258, 0.591513, 0, 0.945723, 0.324974, -0.625461, 0.253563, -0.737906, 0.688938, 0.469517, -0.851906 )
