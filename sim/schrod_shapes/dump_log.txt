@@ -1,0 +1,1720 @@
+# Dump hierarchy from SolidWorks 
+# Assembly: C:\Users\matta\Desktop\CAT Assembly.SLDASM
+
+
+         -Comments [CommentsFolder]
+         -Favorites [FavoriteFolder]
+         -History [HistoryFolder]
+         -Selection Sets [SelectionSetFolder]
+         -Sensors [SensorFolder]
+         -Live Section Planes [LiveSectionFolder]
+         -Design Binder [DocsFolder]
+         -Annotations [DetailCabinet]
+           -Notes [NotesAreaFtrFolder]
+           -Notes1___EndTag___ [NotesAreaFtrFolder]
+         -Lights, Cameras and Scene [EnvFolder]
+           -Ambient [AmbientLight]
+           -Directional1 [DirectionLight]
+           -Directional2 [DirectionLight]
+           -Directional3 [DirectionLight]
+         -Markups [InkMarkupFolder]
+         -Equations [EqnFolder]
+         -Front Plane [RefPlane]
+         -Top Plane [RefPlane]
+         -Right Plane [RefPlane]
+         -Origin [OriginProfileFeature]
+         -CompCurve1 [CompositeCurve]
+         -CompCurve2 [CompositeCurve]
+         -CompCurve3 [CompositeCurve]
+         -CompCurve4 [CompositeCurve]
+         -CompCurve5 [CompositeCurve]
+         -CompCurve6 [CompositeCurve]
+         -CompCurve7 [CompositeCurve]
+         -CompCurve8 [CompositeCurve]
+         -CompCurve9 [CompositeCurve]
+         -CompCurve10 [CompositeCurve]
+         -CompCurve11 [CompositeCurve]
+         -CompCurve12 [CompositeCurve]
+         -CompCurve17 [CompositeCurve]
+         -CompCurve18 [CompositeCurve]
+         -CompCurve19 [CompositeCurve]
+         -CompCurve20 [CompositeCurve]
+         -CompCurve21 [CompositeCurve]
+         -CompCurve22 [CompositeCurve]
+         -CompCurve23 [CompositeCurve]
+         -CompCurve24 [CompositeCurve]
+         -CompCurve25 [CompositeCurve]
+         -CompCurve26 [CompositeCurve]
+         -CompCurve27 [CompositeCurve]
+         -CompCurve28 [CompositeCurve]
+         -CompCurve29 [CompositeCurve]
+         -CompCurve30 [CompositeCurve]
+         -CompCurve31 [CompositeCurve]
+         -CompCurve32 [CompositeCurve]
+         -CompCurve33 [CompositeCurve]
+         -CompCurve34 [CompositeCurve]
+         -Torso.step-1 [Reference]
+         -Head.step-1 [Reference]
+         -LH Shoulder.step-1 [Reference]
+         -Upper Leg.step-1 [Reference]
+         -Lower Leg.step-1 [Reference]
+         -LH Shoulder.step-3 [Reference]
+         -Lower Leg.step-3 [Reference]
+         -Upper Leg.step-3 [Reference]
+         -RH Shoulder.step-1 [Reference]
+         -RH Upper Leg.step-1 [Reference]
+         -RH Lower Leg.step-1 [Reference]
+         -RH Upper Leg.step-2 [Reference]
+         -RH Lower Leg.step-2 [Reference]
+         -RH Shoulder.step-2 [Reference]
+         -Mates [MateGroup]
+           -Concentric1 [MateConcentric]
+           -Distance1 [MateDistanceDim]
+           -Concentric2 [MateConcentric]
+           -Distance2 [MateDistanceDim]
+           -Concentric3 [MateConcentric]
+           -Distance3 [MateDistanceDim]
+           -Concentric4 [MateConcentric]
+           -Distance4 [MateDistanceDim]
+           -Concentric7 [MateConcentric]
+           -Distance7 [MateDistanceDim]
+           -Concentric8 [MateConcentric]
+           -Distance8 [MateDistanceDim]
+           -Concentric9 [MateConcentric]
+           -Distance9 [MateDistanceDim]
+           -Concentric10 [MateConcentric]
+           -Distance10 [MateDistanceDim]
+           -Concentric11 [MateConcentric]
+           -Distance11 [MateDistanceDim]
+           -Concentric12 [MateConcentric]
+           -Distance12 [MateDistanceDim]
+           -Concentric13 [MateConcentric]
+           -Distance13 [MateDistanceDim]
+           -Distance14 [MateDistanceDim]
+           -Concentric14 [MateConcentric]
+           -Concentric15 [MateConcentric]
+           -Distance15 [MateDistanceDim]
+   +RH Upper Leg.step-1 <Default>
+           -Comments [CommentsFolder]
+     +RH Upper Leg.step-1/3mm Threaded Insert, 4mm Height, 4mm OD v1(Mirror) (1).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1 <Default>
+             -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-2.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/95836A511(Mirror) (1).step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/95836A511(Mirror) (1).step-2 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/95836A511(Mirror) (1).step-4 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-0.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-1.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/95836A511(Mirror) (1).step-3 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-3.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-9.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-25.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-27.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-28.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-10.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-17.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-19.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-15.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-4.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-5.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-14.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-7.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-18.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-11.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-16.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-21.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-8.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-6.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-12.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-20.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-13.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-22.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-23.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-24.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-26.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-1/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-29.step-1 <Default>
+               -Comments [CommentsFolder]
+     +RH Upper Leg.step-1/3mm Threaded Insert, 4mm Height, 4mm OD v1(Mirror) (1).step-3 <Default>
+             -Comments [CommentsFolder]
+     +RH Upper Leg.step-1/12mm - 92095A183_Button Head Hex Drive Screw v2(Mirror) (1).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Upper Leg.step-1/10mm - 92095A182_Button Head Hex Drive Screw v5(Mirror) (1).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Upper Leg.step-1/Upper Leg(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Upper Leg.step-1/3mm Threaded Insert, 4mm Height, 4mm OD v1(Mirror) (1).step-2 <Default>
+             -Comments [CommentsFolder]
+     +RH Upper Leg.step-1/Bearing 4mmx9mm v4(Mirror) (1).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Upper Leg.step-1/10mm - 92095A182_Button Head Hex Drive Screw v5(Mirror) (1).step-3 <Default>
+             -Comments [CommentsFolder]
+     +RH Upper Leg.step-1/10mm - 92095A182_Button Head Hex Drive Screw v5(Mirror) (1).step-2 <Default>
+             -Comments [CommentsFolder]
+     +RH Upper Leg.step-1/3mm Threaded Insert, 4mm Height, 4mm OD v1(Mirror) (1).step-4 <Default>
+             -Comments [CommentsFolder]
+     +RH Upper Leg.step-1/Bearing Insert - 2mm v1(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Upper Leg.step-1/Upper Leg(Mirror)-30.step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Upper Leg.step-1/SG-5010 Cross Horn - Single Short v2(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+   +RH Upper Leg.step-2 <Default>
+           -Comments [CommentsFolder]
+     +RH Upper Leg.step-2/3mm Threaded Insert, 4mm Height, 4mm OD v1(Mirror) (1).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1 <Default>
+             -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-2.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/95836A511(Mirror) (1).step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/95836A511(Mirror) (1).step-2 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/95836A511(Mirror) (1).step-4 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-0.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-1.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/95836A511(Mirror) (1).step-3 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-3.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-9.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-25.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-27.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-28.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-10.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-17.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-19.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-15.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-4.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-5.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-14.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-7.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-18.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-11.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-16.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-21.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-8.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-6.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-12.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-20.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-13.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-22.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-23.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-24.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-26.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Upper Leg.step-2/Sunfounder Servo 55g v8(Mirror) (1).step-1/Sunfounder Servo 55g v8(Mirror) (1)-29.step-1 <Default>
+               -Comments [CommentsFolder]
+     +RH Upper Leg.step-2/3mm Threaded Insert, 4mm Height, 4mm OD v1(Mirror) (1).step-3 <Default>
+             -Comments [CommentsFolder]
+     +RH Upper Leg.step-2/12mm - 92095A183_Button Head Hex Drive Screw v2(Mirror) (1).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Upper Leg.step-2/10mm - 92095A182_Button Head Hex Drive Screw v5(Mirror) (1).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Upper Leg.step-2/Upper Leg(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Upper Leg.step-2/3mm Threaded Insert, 4mm Height, 4mm OD v1(Mirror) (1).step-2 <Default>
+             -Comments [CommentsFolder]
+     +RH Upper Leg.step-2/Bearing 4mmx9mm v4(Mirror) (1).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Upper Leg.step-2/10mm - 92095A182_Button Head Hex Drive Screw v5(Mirror) (1).step-3 <Default>
+             -Comments [CommentsFolder]
+     +RH Upper Leg.step-2/10mm - 92095A182_Button Head Hex Drive Screw v5(Mirror) (1).step-2 <Default>
+             -Comments [CommentsFolder]
+     +RH Upper Leg.step-2/3mm Threaded Insert, 4mm Height, 4mm OD v1(Mirror) (1).step-4 <Default>
+             -Comments [CommentsFolder]
+     +RH Upper Leg.step-2/Bearing Insert - 2mm v1(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Upper Leg.step-2/Upper Leg(Mirror)-30.step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Upper Leg.step-2/SG-5010 Cross Horn - Single Short v2(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+   +RH Lower Leg.step-2 <Default>
+           -Comments [CommentsFolder]
+     +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1 <Default>
+             -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-6.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-10.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-12.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-14.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/95836A511(Mirror) (2).step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/95836A511(Mirror) (2).step-3 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-4.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-8.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/95836A511(Mirror) (2).step-2 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-3.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-0.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/95836A511(Mirror) (2).step-4 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-1.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-2.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-5.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-7.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-9.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-11.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-13.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-24.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-15.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-16.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-19.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-17.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-18.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-22.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-25.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-27.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-28.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-29.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-20.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-21.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-23.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-2/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-26.step-1 <Default>
+               -Comments [CommentsFolder]
+     +RH Lower Leg.step-2/12mm - 92095A183_Button Head Hex Drive Screw v2(Mirror) (2).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Lower Leg.step-2/Lower Leg(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Lower Leg.step-2/3mm Threaded Insert, 4mm Height, 4mm OD v1(Mirror) (2).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Lower Leg.step-2/Foot(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+   +RH Lower Leg.step-1 <Default>
+           -Comments [CommentsFolder]
+     +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1 <Default>
+             -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-6.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-10.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-12.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-14.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/95836A511(Mirror) (2).step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/95836A511(Mirror) (2).step-3 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-4.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-8.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/95836A511(Mirror) (2).step-2 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-3.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-0.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/95836A511(Mirror) (2).step-4 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-1.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-2.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-5.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-7.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-9.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-11.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-13.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-24.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-15.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-16.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-19.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-17.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-18.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-22.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-25.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-27.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-28.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-29.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-20.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-21.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-23.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Lower Leg.step-1/Sunfounder Servo 55g v8(Mirror) (2).step-1/Sunfounder Servo 55g v8(Mirror) (2)-26.step-1 <Default>
+               -Comments [CommentsFolder]
+     +RH Lower Leg.step-1/12mm - 92095A183_Button Head Hex Drive Screw v2(Mirror) (2).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Lower Leg.step-1/Lower Leg(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Lower Leg.step-1/3mm Threaded Insert, 4mm Height, 4mm OD v1(Mirror) (2).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Lower Leg.step-1/Foot(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+   +RH Shoulder.step-2 <Default>
+           -Comments [CommentsFolder]
+     +RH Shoulder.step-2/3mm Threaded Insert, 4mm Height, 4mm OD v1(Mirror).step-2 <Default>
+             -Comments [CommentsFolder]
+     +RH Shoulder.step-2/10mm - 92095A182_Button Head Hex Drive Screw v5(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Shoulder.step-2/12mm - 92095A183_Button Head Hex Drive Screw v2(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Shoulder.step-2/Shoulder Flange(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-14.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-7.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-13.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-2.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/95836A511(Mirror).step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-0.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-9.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/95836A511(Mirror).step-3 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-6.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/95836A511(Mirror).step-2 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-1.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-10.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-8.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-3.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-11.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-5.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-12.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/95836A511(Mirror).step-4 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-4.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-15.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-16.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-17.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-18.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-19.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-20.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-22.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-23.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-24.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-25.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-21.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-28.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-27.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-29.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-2/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-26.step-1 <Default>
+               -Comments [CommentsFolder]
+     +RH Shoulder.step-2/Bearing 4mmx9mm v4(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Shoulder.step-2/SG-5010 Cross Horn v3(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Shoulder.step-2/3mm Threaded Insert, 4mm Height, 4mm OD v1(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Shoulder.step-2/3mm Threaded Insert, 4mm Height, 4mm OD v1(Mirror).step-3 <Default>
+             -Comments [CommentsFolder]
+     +RH Shoulder.step-2/10mm - 92095A182_Button Head Hex Drive Screw v5(Mirror).step-2 <Default>
+             -Comments [CommentsFolder]
+     +RH Shoulder.step-2/Bearing Insert - 3mm v2(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Shoulder.step-2/Shoulder(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+   +Upper Leg.step-1 <Default>
+           -Comments [CommentsFolder]
+     +Upper Leg.step-1/Sunfounder Servo 55g.step-1 <Default>
+             -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/95836A511.step-4 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-2.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-5.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-1.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-7.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-3.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/95836A511.step-3 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/95836A511.step-2 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-6.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-24.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/95836A511.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-0.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-9.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-4.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-8.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-10.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-11.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-13.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-14.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-15.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-16.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-19.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-20.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-18.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-21.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-12.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-22.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-17.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-23.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-29.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-26.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-25.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-27.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-28.step-1 <Default>
+               -Comments [CommentsFolder]
+     +Upper Leg.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-2 <Default>
+             -Comments [CommentsFolder]
+     +Upper Leg.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Upper Leg.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-3 <Default>
+             -Comments [CommentsFolder]
+     +Upper Leg.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-4 <Default>
+             -Comments [CommentsFolder]
+     +Upper Leg.step-1/Bearing 4mmx9mm.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Upper Leg.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-3 <Default>
+             -Comments [CommentsFolder]
+     +Upper Leg.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-2 <Default>
+             -Comments [CommentsFolder]
+     +Upper Leg.step-1/Bearing Insert - 2mm.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Upper Leg.step-1/12mm - 92095A183_Button Head Hex Drive Screw.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Upper Leg.step-1/Upper Leg.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Upper Leg.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Upper Leg.step-1/SG-5010 Cross Horn - Single Short.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Upper Leg.step-1/Upper Leg-30.step-1 <Default>
+             -Comments [CommentsFolder]
+   +LH Shoulder.step-3 <Default>
+           -Comments [CommentsFolder]
+     +LH Shoulder.step-3/12mm - 92095A183_Button Head Hex Drive Screw.step-1 <Default>
+             -Comments [CommentsFolder]
+     +LH Shoulder.step-3/3mm Threaded Insert, 4mm Height, 4mm OD.step-2 <Default>
+             -Comments [CommentsFolder]
+     +LH Shoulder.step-3/3mm Threaded Insert, 4mm Height, 4mm OD.step-1 <Default>
+             -Comments [CommentsFolder]
+     +LH Shoulder.step-3/10mm - 92095A182_Button Head Hex Drive Screw.step-1 <Default>
+             -Comments [CommentsFolder]
+     +LH Shoulder.step-3/Sunfounder Servo 55g.step-1 <Default>
+             -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/95836A511.step-4 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-2.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-5.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-1.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-7.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-3.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/95836A511.step-3 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/95836A511.step-2 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-6.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-24.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/95836A511.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-0.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-9.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-4.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-8.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-10.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-11.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-13.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-14.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-15.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-16.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-19.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-20.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-18.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-21.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-12.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-22.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-17.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-23.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-29.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-26.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-25.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-27.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-28.step-1 <Default>
+               -Comments [CommentsFolder]
+     +LH Shoulder.step-3/Shoulder Flange.step-1 <Default>
+             -Comments [CommentsFolder]
+     +LH Shoulder.step-3/SG-5010 Cross Horn.step-1 <Default>
+             -Comments [CommentsFolder]
+     +LH Shoulder.step-3/Bearing 4mmx9mm.step-1 <Default>
+             -Comments [CommentsFolder]
+     +LH Shoulder.step-3/3mm Threaded Insert, 4mm Height, 4mm OD.step-3 <Default>
+             -Comments [CommentsFolder]
+     +LH Shoulder.step-3/10mm - 92095A182_Button Head Hex Drive Screw.step-2 <Default>
+             -Comments [CommentsFolder]
+     +LH Shoulder.step-3/Bearing Insert - 3mm.step-1 <Default>
+             -Comments [CommentsFolder]
+     +LH Shoulder.step-3/Shoulder.step-1 <Default>
+             -Comments [CommentsFolder]
+   +Lower Leg.step-3 <Default>
+           -Comments [CommentsFolder]
+     +Lower Leg.step-3/Foot.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Lower Leg.step-3/Sunfounder Servo 55g.step-1 <Default>
+             -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/95836A511.step-4 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-2.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-5.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-1.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-7.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-3.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/95836A511.step-3 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/95836A511.step-2 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-6.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-24.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/95836A511.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-0.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-9.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-4.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-8.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-10.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-11.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-13.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-14.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-15.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-16.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-19.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-20.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-18.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-21.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-12.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-22.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-17.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-23.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-29.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-26.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-25.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-27.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-28.step-1 <Default>
+               -Comments [CommentsFolder]
+     +Lower Leg.step-3/3mm Threaded Insert, 4mm Height, 4mm OD.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Lower Leg.step-3/12mm - 92095A183_Button Head Hex Drive Screw.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Lower Leg.step-3/Lower Leg.step-1 <Default>
+             -Comments [CommentsFolder]
+   +Torso.step-1 <Default>
+           -Comments [CommentsFolder]
+     +Torso.step-1/Rear Cover.step-1 <Default>
+             -Comments [CommentsFolder]
+       +Torso.step-1/Rear Cover.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-2 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Rear Cover.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Rear Cover.step-1/Rear Cover-0.step-1 <Default>
+               -Comments [CommentsFolder]
+     +Torso.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-5 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/LED_3.step-1 <Default>
+             -Comments [CommentsFolder]
+       +Torso.step-1/LED_3.step-1/Cathode.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/LED_3.step-1/Cathode Pill.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/LED_3.step-1/LED Bulb.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/LED_3.step-1/Anode.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/LED_3.step-1/Cooper Wire_oa_0.step-1 <Default>
+               -Comments [CommentsFolder]
+     +Torso.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/6mm - 92095A179_Button Head Hex Drive Screw.step-2 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-7 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-12 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/LED_2.step-1 <Default>
+             -Comments [CommentsFolder]
+       +Torso.step-1/LED_2.step-1/Anode.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/LED_2.step-1/LED Bulb.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/LED_2.step-1/Cooper Wire_oa_0.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/LED_2.step-1/Cathode.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/LED_2.step-1/Cathode Pill.step-1 <Default>
+               -Comments [CommentsFolder]
+     +Torso.step-1/6mm - 92095A179_Button Head Hex Drive Screw.step-3 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/Body.step-1 <Default>
+             -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/Servo Driver PCA9685.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-8 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-3 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-6 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-7 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-8 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-9 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-10 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-12 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-13 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-14 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-16 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-2 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-3 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-5 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-15 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-2 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-4 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-6 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/Buck Converter LM2596.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-5 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-7 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-4 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-11 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-14 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-9 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-13 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/Battery Connector F (Black).step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-10 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-11 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-12 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/Battery Connector F (Red).step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/Top Cover.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/USB-C Socket.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/Power Switch.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/Fan 40mm.step-2 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/Protoboard.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/Buck Converter 300W.step-1 <Default>
+               -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/2-pin terminal.step-1 <Default>
+                 -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/2-pin terminal.step-1/Terminal.step-2 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/2-pin terminal.step-1/Arandela.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/2-pin terminal.step-1/Tornillo.step-2 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/2-pin terminal.step-1/Arandela.step-2 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/2-pin terminal.step-1/Base_1.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/2-pin terminal.step-1/Tornillo.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/2-pin terminal.step-1/Terminal.step-1 <Default>
+                   -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/elco-b.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/potentiometer.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/elco-a.step-2 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/led.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/2-pin terminal (1).step-1 <Default>
+                 -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/2-pin terminal (1).step-1/Tornillo.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/2-pin terminal (1).step-1/Tornillo.step-2 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/2-pin terminal (1).step-1/Base_1.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/2-pin terminal (1).step-1/Terminal.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/2-pin terminal (1).step-1/Arandela.step-2 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/2-pin terminal (1).step-1/Arandela.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/2-pin terminal (1).step-1/Terminal.step-2 <Default>
+                   -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/heatsink.step-2 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/pcb board.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1 <Default>
+                 -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component16.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component17.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component19.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component35.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component18.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component22.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component20.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component21.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component23.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component11.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component34.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component25.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component24.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component14.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component33.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component15.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component27.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component32.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component26.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component28.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component29.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component30.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component12.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component13.step-1 <Default>
+                   -Comments [CommentsFolder]
+           +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/inductor.step-1/Component31.step-1 <Default>
+                   -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/potentiometer.step-2 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/heatsink.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/elco-a.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/elco-b.step-2 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/elco-b.step-3 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/transistor.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/transistor.step-2 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Buck Converter 300W.step-1/switch.step-1 <Default>
+                 -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/NRF24L01 Transceiver.step-1 <Default>
+               -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/NRF24L01 Transceiver.step-1/antena bawah.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/NRF24L01 Transceiver.step-1/antena atas.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/NRF24L01 Transceiver.step-1/NRF24L01 Transceiver-1.step-1 <Default>
+                 -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/Base.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/Illuminated Pushbutton 16mm.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/LED Bar Graph Green HDSP-4850.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/Raspberry Pi Zero 2 W.step-1 <Default>
+               -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Raspberry Pi Zero 2 W.step-1/SD Card Slot, Raspberry Pi Zero 2 W.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Raspberry Pi Zero 2 W.step-1/MicroUSB Port, Raspberry Pi Zero 2 W.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Raspberry Pi Zero 2 W.step-1/PCB, Raspberry Pi Zero 2 W.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Raspberry Pi Zero 2 W.step-1/RP3A0-AU 2105 201221C, Raspberry Pi Zero 2 W.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Raspberry Pi Zero 2 W.step-1/Wireless Module Cover, Raspberry Pi Zero 2 W.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Raspberry Pi Zero 2 W.step-1/Crystal Resonator, Raspberry Pi Zero 2 W.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Raspberry Pi Zero 2 W.step-1/Mini HDMI Receptacle Port, Raspberry Pi Zero 2 W.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Raspberry Pi Zero 2 W.step-1/SMD Capacitor, Configurable, Raspberry Pi Zero 2 W_C1.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Raspberry Pi Zero 2 W.step-1/PAM2306AYPKE, Switching Voltage Regulators Dual PWM Step-Down 40uA 1A 1.5MHz, Raspberry Pi Zero 2 W.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Raspberry Pi Zero 2 W.step-1/SMD Inductor, Configurable, Raspberry Pi Zero 2 W_L1.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Raspberry Pi Zero 2 W.step-1/Diode, Schottky, Raspberry Pi Zero 2 W.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Raspberry Pi Zero 2 W.step-1/MicroUSB Port, Raspberry Pi Zero 2 W.step-2 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Raspberry Pi Zero 2 W.step-1/LED, Raspberry Pi Zero 2 W.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Raspberry Pi Zero 2 W.step-1/54548-2271, 22 Pin FPC Connector, Raspberry Pi Zero 2 W.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Raspberry Pi Zero 2 W.step-1/Large Heatsink.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Raspberry Pi Zero 2 W.step-1/RT8088AWSC, IC Reg Buck Prog 3A Sync 15WLCSP, Raspberry Pi Zero 2 W_default.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Raspberry Pi Zero 2 W.step-1/RT9081A-1BGQZA, Fixed LDO Voltage Regulator, 0.8V-5.5Vin, 140mV drop, 1.25Vout, 0.5Aout, Raspberry Pi Zero 2 W_default.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/Raspberry Pi Zero 2 W.step-1/SMD Inductor, Configurable, Raspberry Pi Zero 2 W_L2.step-1 <Default>
+                 -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/Fan 40mm.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/Body.step-1/OLED Display (64x48).step-1 <Default>
+               -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/cap0603_03 v1.step-7 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/cap0603_03 v1.step-11 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/cap0603_03 v1.step-13 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/cap0603_03 v1.step-4 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/cap0603_03 v1.step-9 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/cap0603_03 v1.step-3 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/cap0603_03 v1.step-5 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/cap0603_03 v1.step-8 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/cap0603_03 v1.step-2 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/EDnek 4 v1.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/cap0603_03 v1.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/cap0603_03 v1.step-6 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/cap0603_03 v1.step-10 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/cap0603_03 v1.step-12 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/OLED Display (64x48)-8.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/OLED Display (64x48)-2.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/OLED Display (64x48)-12.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/SOP-3 v1.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/OLED Display (64x48)-3.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/cap0603_03 v1.step-14 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/OLED Display (64x48)-11.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/cap0603_03 v1.step-15 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/cap0603_03 v1.step-16 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/OLED Display (64x48)-10.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/OLED Display (64x48)-6.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/OLED Display (64x48)-9.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/OLED Display (64x48)-4.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/OLED Display (64x48)-5.step-1 <Default>
+                 -Comments [CommentsFolder]
+         +Torso.step-1/Body.step-1/OLED Display (64x48).step-1/OLED Display (64x48)-7.step-1 <Default>
+                 -Comments [CommentsFolder]
+     +Torso.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-11 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-13 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-15 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-2 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-3 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-8 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-10 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-14 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/6mm - 92095A179_Button Head Hex Drive Screw.step-4 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/6mm - 92095A179_Button Head Hex Drive Screw.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-6 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-9 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/LED_4.step-1 <Default>
+             -Comments [CommentsFolder]
+       +Torso.step-1/LED_4.step-1/LED Bulb.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/LED_4.step-1/Anode.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/LED_4.step-1/Cathode.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/LED_4.step-1/Cooper Wire_oa_0.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/LED_4.step-1/Cathode Pill.step-1 <Default>
+               -Comments [CommentsFolder]
+     +Torso.step-1/LED_1.step-1 <Default>
+             -Comments [CommentsFolder]
+       +Torso.step-1/LED_1.step-1/LED Bulb.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/LED_1.step-1/Cathode.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/LED_1.step-1/Cathode Pill.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/LED_1.step-1/Cooper Wire_oa_0.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Torso.step-1/LED_1.step-1/Anode.step-1 <Default>
+               -Comments [CommentsFolder]
+     +Torso.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-4 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/6mm - 92095A179_Button Head Hex Drive Screw.step-5 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/Torso.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/12mm Socket - 91290A117_Black-Oxide Alloy Steel Socket Head Screw.step-5 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/12mm Socket - 91290A117_Black-Oxide Alloy Steel Socket Head Screw.step-4 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/6mm - 92095A179_Button Head Hex Drive Screw.step-6 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/12mm Socket - 91290A117_Black-Oxide Alloy Steel Socket Head Screw.step-3 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/12mm Socket - 91290A117_Black-Oxide Alloy Steel Socket Head Screw.step-8 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/12mm Socket - 91290A117_Black-Oxide Alloy Steel Socket Head Screw.step-6 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/12mm Socket - 91290A117_Black-Oxide Alloy Steel Socket Head Screw.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/12mm Socket - 91290A117_Black-Oxide Alloy Steel Socket Head Screw.step-7 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/6mm - 92095A179_Button Head Hex Drive Screw.step-7 <Default>
+             -Comments [CommentsFolder]
+     +Torso.step-1/12mm Socket - 91290A117_Black-Oxide Alloy Steel Socket Head Screw.step-2 <Default>
+             -Comments [CommentsFolder]
+   +Upper Leg.step-3 <Default>
+           -Comments [CommentsFolder]
+     +Upper Leg.step-3/Sunfounder Servo 55g.step-1 <Default>
+             -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/95836A511.step-4 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-2.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-5.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-1.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-7.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-3.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/95836A511.step-3 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/95836A511.step-2 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-6.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-24.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/95836A511.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-0.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-9.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-4.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-8.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-10.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-11.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-13.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-14.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-15.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-16.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-19.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-20.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-18.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-21.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-12.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-22.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-17.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-23.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-29.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-26.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-25.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-27.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Upper Leg.step-3/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-28.step-1 <Default>
+               -Comments [CommentsFolder]
+     +Upper Leg.step-3/3mm Threaded Insert, 4mm Height, 4mm OD.step-2 <Default>
+             -Comments [CommentsFolder]
+     +Upper Leg.step-3/10mm - 92095A182_Button Head Hex Drive Screw.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Upper Leg.step-3/3mm Threaded Insert, 4mm Height, 4mm OD.step-3 <Default>
+             -Comments [CommentsFolder]
+     +Upper Leg.step-3/3mm Threaded Insert, 4mm Height, 4mm OD.step-4 <Default>
+             -Comments [CommentsFolder]
+     +Upper Leg.step-3/Bearing 4mmx9mm.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Upper Leg.step-3/10mm - 92095A182_Button Head Hex Drive Screw.step-3 <Default>
+             -Comments [CommentsFolder]
+     +Upper Leg.step-3/10mm - 92095A182_Button Head Hex Drive Screw.step-2 <Default>
+             -Comments [CommentsFolder]
+     +Upper Leg.step-3/Bearing Insert - 2mm.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Upper Leg.step-3/12mm - 92095A183_Button Head Hex Drive Screw.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Upper Leg.step-3/Upper Leg.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Upper Leg.step-3/3mm Threaded Insert, 4mm Height, 4mm OD.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Upper Leg.step-3/SG-5010 Cross Horn - Single Short.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Upper Leg.step-3/Upper Leg-30.step-1 <Default>
+             -Comments [CommentsFolder]
+   +RH Shoulder.step-1 <Default>
+           -Comments [CommentsFolder]
+     +RH Shoulder.step-1/3mm Threaded Insert, 4mm Height, 4mm OD v1(Mirror).step-2 <Default>
+             -Comments [CommentsFolder]
+     +RH Shoulder.step-1/10mm - 92095A182_Button Head Hex Drive Screw v5(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Shoulder.step-1/12mm - 92095A183_Button Head Hex Drive Screw v2(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Shoulder.step-1/Shoulder Flange(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-14.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-7.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-13.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-2.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/95836A511(Mirror).step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-0.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-9.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/95836A511(Mirror).step-3 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-6.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/95836A511(Mirror).step-2 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-1.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-10.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-8.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-3.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-11.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-5.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-12.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/95836A511(Mirror).step-4 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-4.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-15.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-16.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-17.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-18.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-19.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-20.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-22.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-23.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-24.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-25.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-21.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-28.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-27.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-29.step-1 <Default>
+               -Comments [CommentsFolder]
+       +RH Shoulder.step-1/Sunfounder Servo 55g v8(Mirror).step-1/Sunfounder Servo 55g v8(Mirror)-26.step-1 <Default>
+               -Comments [CommentsFolder]
+     +RH Shoulder.step-1/Bearing 4mmx9mm v4(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Shoulder.step-1/SG-5010 Cross Horn v3(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Shoulder.step-1/3mm Threaded Insert, 4mm Height, 4mm OD v1(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Shoulder.step-1/3mm Threaded Insert, 4mm Height, 4mm OD v1(Mirror).step-3 <Default>
+             -Comments [CommentsFolder]
+     +RH Shoulder.step-1/10mm - 92095A182_Button Head Hex Drive Screw v5(Mirror).step-2 <Default>
+             -Comments [CommentsFolder]
+     +RH Shoulder.step-1/Bearing Insert - 3mm v2(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+     +RH Shoulder.step-1/Shoulder(Mirror).step-1 <Default>
+             -Comments [CommentsFolder]
+   +LH Shoulder.step-1 <Default>
+           -Comments [CommentsFolder]
+     +LH Shoulder.step-1/12mm - 92095A183_Button Head Hex Drive Screw.step-1 <Default>
+             -Comments [CommentsFolder]
+     +LH Shoulder.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-2 <Default>
+             -Comments [CommentsFolder]
+     +LH Shoulder.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-1 <Default>
+             -Comments [CommentsFolder]
+     +LH Shoulder.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-1 <Default>
+             -Comments [CommentsFolder]
+     +LH Shoulder.step-1/Sunfounder Servo 55g.step-1 <Default>
+             -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/95836A511.step-4 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-2.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-5.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-1.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-7.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-3.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/95836A511.step-3 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/95836A511.step-2 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-6.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-24.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/95836A511.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-0.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-9.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-4.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-8.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-10.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-11.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-13.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-14.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-15.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-16.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-19.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-20.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-18.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-21.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-12.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-22.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-17.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-23.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-29.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-26.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-25.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-27.step-1 <Default>
+               -Comments [CommentsFolder]
+       +LH Shoulder.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-28.step-1 <Default>
+               -Comments [CommentsFolder]
+     +LH Shoulder.step-1/Shoulder Flange.step-1 <Default>
+             -Comments [CommentsFolder]
+     +LH Shoulder.step-1/SG-5010 Cross Horn.step-1 <Default>
+             -Comments [CommentsFolder]
+     +LH Shoulder.step-1/Bearing 4mmx9mm.step-1 <Default>
+             -Comments [CommentsFolder]
+     +LH Shoulder.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-3 <Default>
+             -Comments [CommentsFolder]
+     +LH Shoulder.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-2 <Default>
+             -Comments [CommentsFolder]
+     +LH Shoulder.step-1/Bearing Insert - 3mm.step-1 <Default>
+             -Comments [CommentsFolder]
+     +LH Shoulder.step-1/Shoulder.step-1 <Default>
+             -Comments [CommentsFolder]
+   +Lower Leg.step-1 <Default>
+           -Comments [CommentsFolder]
+     +Lower Leg.step-1/Foot.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Lower Leg.step-1/Sunfounder Servo 55g.step-1 <Default>
+             -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/95836A511.step-4 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-2.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-5.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-1.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-7.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-3.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/95836A511.step-3 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/95836A511.step-2 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-6.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-24.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/95836A511.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-0.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-9.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-4.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-8.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-10.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-11.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-13.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-14.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-15.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-16.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-19.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-20.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-18.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-21.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-12.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-22.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-17.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-23.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-29.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-26.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-25.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-27.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Lower Leg.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-28.step-1 <Default>
+               -Comments [CommentsFolder]
+     +Lower Leg.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Lower Leg.step-1/12mm - 92095A183_Button Head Hex Drive Screw.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Lower Leg.step-1/Lower Leg.step-1 <Default>
+             -Comments [CommentsFolder]
+   +Head.step-1 <Default>
+           -Comments [CommentsFolder]
+     +Head.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-2 <Default>
+             -Comments [CommentsFolder]
+     +Head.step-1/Sunfounder Servo 55g.step-1 <Default>
+             -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/95836A511.step-4 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-2.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-5.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-1.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-7.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-3.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/95836A511.step-3 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/95836A511.step-2 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-6.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-24.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/95836A511.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-0.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-9.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-4.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-8.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-10.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-11.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-13.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-14.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-15.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-16.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-19.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-20.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-18.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-21.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-12.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-22.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-17.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-23.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-29.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-26.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-25.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-27.step-1 <Default>
+               -Comments [CommentsFolder]
+       +Head.step-1/Sunfounder Servo 55g.step-1/Sunfounder Servo 55g-28.step-1 <Default>
+               -Comments [CommentsFolder]
+     +Head.step-1/JeVois.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Head.step-1/NeoPixel RGBW Ring.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Head.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Head.step-1/20mm - 92095A185_Button Head Hex Drive Screw.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Head.step-1/Bearing 4mmx9mm.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Head.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-3 <Default>
+             -Comments [CommentsFolder]
+     +Head.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-4 <Default>
+             -Comments [CommentsFolder]
+     +Head.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-5 <Default>
+             -Comments [CommentsFolder]
+     +Head.step-1/3mm Threaded Insert, 4mm Height, 4mm OD.step-6 <Default>
+             -Comments [CommentsFolder]
+     +Head.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Head.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-4 <Default>
+             -Comments [CommentsFolder]
+     +Head.step-1/Head.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Head.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-3 <Default>
+             -Comments [CommentsFolder]
+     +Head.step-1/Bearing Insert - 3mm_1.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Head.step-1/Head-30.step-1 <Default>
+             -Comments [CommentsFolder]
+     +Head.step-1/10mm - 92095A182_Button Head Hex Drive Screw.step-2 <Default>
+             -Comments [CommentsFolder]
+     +Head.step-1/Bearing Insert - 3mm.step-1 <Default>
+             -Comments [CommentsFolder]
