@@ -5,7 +5,8 @@
 #include "USBHost_t36.h"
 #include "RF24.h"
 
-#define DEBUG
+// #define DEBUG
+#define SERIAL
 
 // Joystick globals
 USBHost myusb;
@@ -36,7 +37,7 @@ const uint8_t *outaddr = (const uint8_t*) "CORI0"; // Controller out, robot in
 
 // Main functions
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(1000000);
   Serial1.begin(2000000);
 
   Serial.printf("Schrodinger Controller\n");
@@ -105,8 +106,21 @@ void loop() {
     bool trans = radio.write(&payload, sizeof(payload));
     (void)trans;
 
-    // Wrap up and print the result if DEBUG is on
+    #ifdef SERIAL
+    Serial.printf("%d,%d,%d,%d,%d,",
+      payload.accel[0], payload.accel[1], payload.accel[2],
+      payload.touch[0], payload.touch[1]);
+    for(int i = 0; i < 16; i++) {
+      uint32_t k = (payload.buttons >> (15-i)) & 1;
+      Serial.printf("%d", k);
+    }
+    Serial.printf(",%d,%d,%d,%d,%d,%d,%d\n",
+      payload.axes[0], payload.axes[1], payload.axes[2], payload.axes[3],
+      payload.axes[4], payload.axes[5], payload.axes[6]);
+    #endif
+
     #ifdef DEBUG
+    // Wrap up and print the result if DEBUG is on
     uint32_t t2 = micros();
     
     Serial.printf("Pitch: %d,\t%d,\t%d\n", payload.accel[0], payload.accel[1], payload.accel[2]);
