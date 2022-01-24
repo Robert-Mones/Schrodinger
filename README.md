@@ -1,6 +1,7 @@
 # Schrodinger
 3D-Printable quadrupedal robot driven by hobby servos.
 
+![image](https://github.com/Robert-Mones/Schrodinger/blob/main/images/renders/isometric-v117.png)
 ![image](https://github.com/Robert-Mones/Schrodinger/blob/main/images/renders/isometric-standing-v91.png)
 
 ## About
