@@ -15,5 +15,5 @@ Features
 - [x] CAD Modelling
 - [ ] Simulation
 - [ ] Control System Development
-- [ ] Fabrication & Assembly
+- [x] Fabrication & Assembly
 - [ ] Electronics Development
