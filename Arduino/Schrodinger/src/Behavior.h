@@ -8,8 +8,6 @@ class Behavior_ {
     public:
         void setup();
         void loop();
-
-        uint8_t servoSelect;
 };
 extern Behavior_ Behavior;
 

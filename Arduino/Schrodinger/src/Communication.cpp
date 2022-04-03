@@ -90,12 +90,16 @@ bool Communication_::getButtonNewValue(uint8_t button, bool requireRecent) {
         && !(Communication.lastPacket.buttons & (1 << button));
 }
 
-bool Communication_::getAxesValue(uint8_t axis, uint8_t val, bool requireRecent) {
+uint8_t Communication_::getAxesValue(uint8_t axis) {
+    return Communication.packet.axes[axis];
+}
+
+bool Communication_::getAxesIsValue(uint8_t axis, uint8_t val, bool requireRecent) {
     // requireRecent is false by default
     return (recent || !requireRecent) && Communication.packet.axes[axis] == val;
 }
 
-bool Communication_::getAxesNewValue(uint8_t axis, uint8_t val, bool requireRecent) {
+bool Communication_::getAxesIsNewValue(uint8_t axis, uint8_t val, bool requireRecent) {
     // requireRecent is false by default
     return (recent || !requireRecent) && Communication.packet.axes[axis] == val
         && Communication.lastPacket.axes[axis] != val;

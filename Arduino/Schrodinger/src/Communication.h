@@ -15,8 +15,9 @@ class Communication_ {
         bool getConnected();
         bool getButtonValue(uint8_t button, bool requireRecent = false);
         bool getButtonNewValue(uint8_t button, bool requireRecent = false);
-        bool getAxesValue(uint8_t axis, uint8_t val, bool requireRecent = false);
-        bool getAxesNewValue(uint8_t axis, uint8_t val, bool requireRecent = false);
+        uint8_t getAxesValue(uint8_t axis);
+        bool getAxesIsValue(uint8_t axis, uint8_t val, bool requireRecent = false);
+        bool getAxesIsNewValue(uint8_t axis, uint8_t val, bool requireRecent = false);
 
         // These structs must have same size <= 32 bytes
         struct outpayload { // 20 bytes (20 actual)
