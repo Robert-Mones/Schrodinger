@@ -7,6 +7,8 @@
 #include "Kinematics.h"
 #include "Sensor.h"
 
+#define LOOP_TIME 10000 // Minimum time (us) to wait between control loops
+
 void setup() {
     Communication.setup();
     Sensor.setup();
@@ -59,4 +61,7 @@ void loop() {
             Serial.printf(" |%d %.1f|", i, Control.getServo(i));
     }
     Serial.printf("\n");
+
+    // Wait a specified amount of time before continuing to the next iteration
+    while(micros() < t1 + LOOP_TIME);
 }
