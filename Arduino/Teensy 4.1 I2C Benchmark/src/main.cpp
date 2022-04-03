@@ -61,6 +61,7 @@ void displayLoop() {
 void IMUSetup() {
   if(bno.begin()) {
     bno.setExtCrystalUse(true);
+    Wire.setClock(400000);
   } else {
     Serial.printf("IMU begin failed\n");
   }
@@ -85,6 +86,7 @@ void servoSetup() {
   pwm.begin();
   pwm.setOscillatorFrequency(27000000);
   pwm.setPWMFreq(50);
+  Wire1.setClock(400000);
 }
 
 void servoLoop() {
@@ -92,7 +94,8 @@ void servoLoop() {
 
   t1 = micros();
   for(int i = 0; i < 16; i++) {
-    pwm.setPWM(i, 0, 300);
+    pwm.setPWM(i, 0, 117 + 
+      (int)((120.0 * t1)/1000000.0) % 360);
   }
   t2 = micros();
 
@@ -102,7 +105,9 @@ void servoLoop() {
 /* Adafruit_INA260 ina260 = Adafruit_INA260();
 
 void currentSetup() {
-  if(!ina260.begin(64U, &Wire1)) {
+  if(ina260.begin(64U, &Wire1)) {
+    Wire1.setClock(400000);
+  } else {
     Serial.printf("Couldn't find current sensor.\n");
   }
 }
@@ -131,15 +136,20 @@ void currentLoop() {
  */
 
 /*  Unthreaded BNO055:
- *    100kHz w/ 1kO:  100kHz actual   1000-2000us
+ *    100kHz w/ 2kO:   98kHz actual   1000-2000us
+ *    400kHz w/ 2kO:  370kHz actual   300-2000us
  */
 
 /*  Unthreaded PCA9685:
- *    100kHz w/ 1kO:   90kHz actual   1700us
+ *    100kHz w/ 1kO:  100kHz actual   1700us
+ *    400kHz w/ 1kO:  400kHz actual   500us
  */
 
 /*  Unthreaded INA260:
- *    100kHz w/ 0kO:   ??kHz actual   1500us
+ *    100kHz w/ 0kO:   94kHz actual   1500us
+ *    100kHz w/ 1kO:  100kHz actual   1500us
+ *    400kHz w/ 1kO:  387kHz actual    400us
+ *    800kHz w/ 1kO:  387kHz actual    400us
  */
 
 void setup() {
