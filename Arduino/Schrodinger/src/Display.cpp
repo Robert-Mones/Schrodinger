@@ -19,18 +19,21 @@ void Display_::setup() {
 
 void Display_::loop() {
     uint32_t t = millis();
-    if(needsUpdate && (((t - lastUpdate) >= DISPLAY_TIME) || t < lastUpdate)) {
-        // If display needs updating, first copy the data into a buffer
-        displayDataLock.lock();
-        for(int i = 0; i < 6; i++) {
-            strncpy(displayBuffer[i], displayData[i], DISPLAY_WIDTH);
-        }
-        displayDataLock.unlock();
-
-        // Then write to the display in a thread,
-        //   unless we already have a thread working on it
+    if(needsUpdate && t >= lastUpdate + DISPLAY_TIME) {
         if(displayWriteLock.try_lock()) {
-            threads.addThread(writeDisplay, this);
+            // If display needs updating, first copy the data into a buffer
+            displayDataLock.lock();
+            for(int i = 0; i < 6; i++) {
+                strncpy(displayBuffer[i], displayData[i], DISPLAY_WIDTH);
+            }
+            displayDataLock.unlock();
+
+            // Then write to the display in a thread,
+            //   unless we already have a thread working on it
+            // threads.addThread(writeDisplay, this);
+            for(int i = 0; i < 6; i++) {
+                Serial.printf("%s\n", displayData[i]);
+            }
         }
 
         lastUpdate = t;
@@ -39,7 +42,9 @@ void Display_::loop() {
 
 void Display_::updateDisplay(int i, const char *s, bool append) {
     // append is false by default
+    uint32_t t1 = micros();
     displayDataLock.lock();
+
     if(append) {
         int8_t len = DISPLAY_WIDTH - strlen(displayData[i]);
         strncat(displayData[i], s, len);
@@ -49,6 +54,9 @@ void Display_::updateDisplay(int i, const char *s, bool append) {
     }
     displayDataLock.unlock();
     needsUpdate = true;
+
+    uint32_t t2 = micros();
+    if(t2 - t1 > 2) Serial.printf("Long display update: %d us", t2-t1);
 }
 
 void Display_::writeDisplay(void *t) {

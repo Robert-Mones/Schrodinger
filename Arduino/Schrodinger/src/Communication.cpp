@@ -34,35 +34,69 @@ void Communication_::setup() {
 }
 
 void Communication_::loop() {
+    uint32_t t1 = micros();
+
     bool connectedNow = radio.isChipConnected();
     if(connectedNow != connected) {
         connected = connectedNow;
         if(!connected) Display.updateDisplay(2, "Radio Disabled");
     }
 
+    uint32_t t2 = micros();
+
+    recent = false;
     uint8_t pipe;
     if(radio.available(&pipe)) {
         inpayload inBuf;
         uint8_t bytes = radio.getPayloadSize();
         radio.read(&inBuf, bytes);
+        lastPacket = packet;
+        packet = inBuf;
+        recent = true;
         packetCt++;
-
-        digitalWrite(33, inBuf.buttons);
     }
 
+    uint32_t t3 = micros();
+
     uint32_t t = millis();
-    // Count packets in one-second intervals, or if millis has overflowed
-    if((t - lastCtTime) >= 1000 || t < lastCtTime) {
+    // Count packets in one-second intervals
+    if(t >= lastCtTime + 1000) {
         Display.updateDisplay(2, connected ? "Radio Enabled" : "Radio Disabled");
         char buf[DISPLAY_WIDTH+1];
         snprintf(buf, DISPLAY_WIDTH+1, " (%dHz)", (unsigned int) packetCt);
         Display.updateDisplay(2, buf, true);
 
+        packetFreq = packetCt;
         packetCt = 0;
         lastCtTime = t;
     }
+
+    uint32_t t4 = micros();
+    if(t4-t1 > 100) Serial.printf("Comm time: %d\t%d\t%d\n", t2-t1, t3-t2, t4-t3);
 }
 
 bool Communication_::getConnected() {
     return connected;
+}
+
+bool Communication_::getButtonValue(uint8_t button, bool requireRecent) {
+    // requireRecent is false by default
+    return (recent || !requireRecent) && (Communication.packet.buttons & (1 << button));
+}
+
+bool Communication_::getButtonNewValue(uint8_t button, bool requireRecent) {
+    // requireRecent is false by default
+    return (recent || !requireRecent) && (Communication.packet.buttons & (1 << button))
+        && !(Communication.lastPacket.buttons & (1 << button));
+}
+
+bool Communication_::getAxesValue(uint8_t axis, uint8_t val, bool requireRecent) {
+    // requireRecent is false by default
+    return (recent || !requireRecent) && Communication.packet.axes[axis] == val;
+}
+
+bool Communication_::getAxesNewValue(uint8_t axis, uint8_t val, bool requireRecent) {
+    // requireRecent is false by default
+    return (recent || !requireRecent) && Communication.packet.axes[axis] == val
+        && Communication.lastPacket.axes[axis] != val;
 }

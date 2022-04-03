@@ -13,6 +13,10 @@ class Communication_ {
         void loop();
 
         bool getConnected();
+        bool getButtonValue(uint8_t button, bool requireRecent = false);
+        bool getButtonNewValue(uint8_t button, bool requireRecent = false);
+        bool getAxesValue(uint8_t axis, uint8_t val, bool requireRecent = false);
+        bool getAxesNewValue(uint8_t axis, uint8_t val, bool requireRecent = false);
 
         // These structs must have same size <= 32 bytes
         struct outpayload { // 20 bytes (20 actual)
@@ -24,6 +28,11 @@ class Communication_ {
             int16_t accel[3];
             uint8_t axes[7];
         };
+        
+        bool recent;
+        inpayload packet;
+        inpayload lastPacket;
+        uint32_t packetFreq;
     
     private:
         RF24 radio; // 10 MHz SPI communication
