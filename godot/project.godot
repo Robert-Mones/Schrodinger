@@ -1,0 +1,42 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+[application]
+
+config/name="Schrodinger"
+run/main_scene="res://scenes/test-scene.tscn"
+
+[display]
+
+window/size/width=1920
+window/size/height=1080
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/orbit_camera/plugin.cfg" )
+
+[global]
+
+scene=false
+
+[physics]
+
+common/enable_pause_aware_picking=true
+3d/physics_engine="Bullet"
+3d/active_soft_world=false
+3d/godot_physics/use_bvh=false
+3d/godot_physics/bvh_collision_margin=0.01
+
+[rendering]
+
+quality/subsurface_scattering/quality=2
+quality/filters/msaa=4
+quality/filters/use_fxaa=true
+quality/filters/use_debanding=true

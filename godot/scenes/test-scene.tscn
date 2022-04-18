@@ -1,0 +1,97 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://schrod-v60.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scripts/node-follow.gd" type="Script" id=2]
+[ext_resource path="res://addons/orbit_camera/orbit_camera.gd" type="Script" id=3]
+
+[sub_resource type="SpatialMaterial" id=1]
+albedo_color = Color( 0.705882, 0.905882, 1, 1 )
+
+[sub_resource type="PlaneMesh" id=2]
+material = SubResource( 1 )
+
+[sub_resource type="BoxShape" id=3]
+extents = Vector3( 9.90394, 0.127666, 9.93583 )
+
+[sub_resource type="SpatialMaterial" id=4]
+albedo_color = Color( 1, 0.407843, 0.407843, 1 )
+
+[sub_resource type="CubeMesh" id=5]
+material = SubResource( 4 )
+
+[sub_resource type="BoxShape" id=6]
+
+[sub_resource type="SpatialMaterial" id=7]
+albedo_color = Color( 0.364706, 0.909804, 1, 1 )
+
+[sub_resource type="SphereMesh" id=8]
+material = SubResource( 7 )
+
+[sub_resource type="SphereShape" id=9]
+
+[node name="Test Scene" type="Spatial"]
+
+[node name="schrod-v60" parent="." instance=ExtResource( 1 )]
+transform = Transform( -5, 0, -4.37114e-07, 0, 5, 0, 4.37114e-07, 0, -5, 0, 1.04613, 0 )
+
+[node name="Floor" type="StaticBody" parent="."]
+
+[node name="MeshInstance" type="MeshInstance" parent="Floor"]
+transform = Transform( 9.93664, 0, 0, 0, 1, 0, 0, 0, 9.98345, 0, 0, 0 )
+mesh = SubResource( 2 )
+material/0 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="Floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.1284, 0 )
+shape = SubResource( 3 )
+
+[node name="cube" type="StaticBody" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.915915, 0.401372, 0, -0.401372, 0.915915, 0, -0.539044, 3.40342 )
+
+[node name="mesh" type="MeshInstance" parent="cube"]
+mesh = SubResource( 5 )
+material/0 = null
+
+[node name="shape" type="CollisionShape" parent="cube"]
+shape = SubResource( 6 )
+
+[node name="cube2" type="StaticBody" parent="."]
+transform = Transform( 0.4, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+
+[node name="mesh" type="MeshInstance" parent="cube2"]
+mesh = SubResource( 5 )
+material/0 = null
+
+[node name="shape" type="CollisionShape" parent="cube2"]
+shape = SubResource( 6 )
+
+[node name="sphere" type="StaticBody" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.09568, -0.482904, 3.25216 )
+
+[node name="mesh" type="MeshInstance" parent="sphere"]
+mesh = SubResource( 8 )
+material/0 = null
+
+[node name="shape" type="CollisionShape" parent="sphere"]
+shape = SubResource( 9 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.607709, 0.79416, 0, -0.79416, 0.607709, 0, 4.01609, 4.53095 )
+light_energy = 0.8
+
+[node name="camera-anchor" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.04613, 0 )
+script = ExtResource( 2 )
+target = NodePath("../schrod-v60/torso")
+lookAtTarget = false
+
+[node name="OrbitCamera" type="Camera" parent="camera-anchor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1 )
+script = ExtResource( 3 )
+SCROLL_SPEED = 20.0
+DEFAULT_DISTANCE = 5.0
+ROTATE_SPEED = 1.0
+ANCHOR_NODE_PATH = NodePath("..")
+MOUSE_ZOOM_SPEED = 30.0
+
+[editable path="schrod-v60"]
