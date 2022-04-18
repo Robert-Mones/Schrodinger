@@ -1,8 +1,12 @@
 # Schrodinger
 3D-Printable quadrupedal robot driven by hobby servos.
 
-![image](https://github.com/Robert-Mones/Schrodinger/blob/main/images/renders/isometric-v117.png)
-![image](https://github.com/Robert-Mones/Schrodinger/blob/main/images/renders/isometric-standing-v91.png)
+<p align="center">
+<img width="49%" src="https://github.com/Robert-Mones/Schrodinger/blob/main/images/renders/isometric-v117.png" alt="A Rendering of the CAD Model of Schrodinger" />
+<img width="49%" src="https://github.com/Robert-Mones/Schrodinger/blob/main/images/renders/isometric-standing-v91.png" alt="A Rendering of the CAD Model of Schrodinger in a Standing Position" />
+<img width="49%" src="https://github.com/Robert-Mones/Schrodinger/blob/main/images/kinematics.png" alt="A Screenshot of the Simulation Environment Running the Kinematic Model" />
+<img width="49%" src="https://github.com/Robert-Mones/Schrodinger/blob/main/images/test-stand.png" alt="An Image of Schrodinger on a Test Stand" />
+</p>
 
 ## About
 Features
