@@ -8,11 +8,16 @@
 <img width="49%" src="https://github.com/Robert-Mones/Schrodinger/blob/main/images/test-stand.png" alt="An Image of Schrodinger on a Test Stand" />
 </p>
 
+Hardware v2 (shown below) is being developed now, then work on control system and autonomy software will continue.
+<p align="center">
+<img width="100%" src="https://github.com/Robert-Mones/Schrodinger/blob/main/images/renders/isometric-hardware-v2-v50.png" alt="A Rendering of the CAD Model of Schrodinger v2 Hardware" />
+</p>
+
 ## About
 Features
-- 13 articulating joints with [standard-size hobby servo motors](https://www.sunfounder.com/products/metal-gear-digital-servo)
+- ~~13~~ 12 articulating joints with [standard-size high-torque hobby servo motors](https://www.amazon.com/gp/product/B097DWW6PY)
     - Each leg rotates at the knee and about two axes at the shoulder
-    - Articulating neck
+    - ~~Articulating collar~~ Fixed collar
 - On-board control system based around a [Teensy 4.1 microcontroller](https://www.pjrc.com/store/teensy41.html) operating a main control loop at 100Hz
     - Absolute orientation from a [fusion BNO055 IMU](https://www.adafruit.com/product/2472)
     - Medium-range (50-100ft), medium-bandwidth communication with a [2.4GHz NRFL01-based radio](https://www.amazon.com/gp/product/B00WG9HO6Q)
@@ -24,7 +29,7 @@ Features
 
 ## Progress
 - [x] CAD Modelling
-- [ ] Simulation (In progress)
-- [ ] Control System Development
-- [x] Fabrication & Assembly
+- [ ] Simulation (On hold)
+- [ ] Fabrication & Assembly (In progress)
 - [ ] Electronics Development (In progress)
+- [ ] Control System Development (On hold)
