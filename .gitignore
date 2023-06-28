@@ -9,3 +9,5 @@ export_presets.cfg
 # Mono-specific ignores
 .mono/
 data_*/
+Arduino/Schrodinger/.vscode/extensions.json
+Arduino/Teensy 4.1 I2C Benchmark/.vscode/extensions.json
