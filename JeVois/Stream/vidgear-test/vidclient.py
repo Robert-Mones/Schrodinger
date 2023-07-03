@@ -1,7 +1,8 @@
 from vidgear.gears import NetGear
 import cv2
 
-client = NetGear(receive_mode=True, address="10.0.0.63", port="5555")
+options = {}
+client = NetGear(receive_mode=True, address="172.26.45.191", port="5555", **options)
 
 try:
     while True:
